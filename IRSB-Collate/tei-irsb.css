@@ -1,0 +1,526 @@
+/* Usage: Add to XML file in the preamble, e.g.,
+ <?xml version="1.0"?>
+ <?xml-stylesheet type="text/css" href="TEI-IRSB.css"?>
+ <TEI...
+ */
+
+abbr[type=ns] {
+    font-weight:bold;
+    background-color: lightgrey;
+}
+abbr:not([type='ns']){
+    font-style: italic;
+    background-color: orange;
+}
+abbr:not([type='ns']):before {
+    content:"abbr type:"attr(type)"";
+    font-size:xx-small;
+    vertical-align:super;
+    font-style:normal;
+}
+
+add {
+    background-color:orange;
+    color: green;
+}
+
+add:before {
+    content:"add ";
+    font-size:xx-small;
+    vertical-align:super;
+    color:black;
+}
+add[hand]:before {
+    content:"add hand:"attr(hand)"";
+    font-size:xx-small;
+    vertical-align:super;
+    color:black;
+}
+add[place]:before {
+    content:"add place:"attr(place)"";
+    font-size:xx-small;
+    vertical-align:super;
+    color:black;
+}
+add[hand][place]:before {
+    content:"add place:"attr(place)" hand:"attr(hand)"";
+    font-size:xx-small;
+    vertical-align:super;
+    color:black;
+}
+
+c {
+    background-color: orange;
+}
+
+cb {
+  display: block;
+  margin-top: 1em;
+}
+cb:before {
+    content: "column "attr(n)"";
+    color:blue;
+}
+
+choice {
+    background-color: orange;
+}
+choice:before {
+    font-size:xx-small;
+    content: "choice(";
+    vertical-align:super
+}
+choice:after {
+    font-size:xx-small;
+    content: ")";
+    vertical-align:super
+}
+
+corr {
+    background-color:orange;
+    color: green;
+}
+
+del {
+    color: white;
+    background-color:orange;
+    /* text-decoration: line-through; */
+}
+del[cert=high] {
+    background-color:#CC0000;
+}
+del[cert=medium] {
+    background-color:#FF0000;
+}
+del[cert=low] {
+    background-color:#FF6666;
+}
+del:before {
+    content:"del ";
+    font-size:xx-small;
+    vertical-align:super;
+    color:black;
+}
+del[quantity]:before{
+    content:"del "attr(quantity)" chars";
+    color:black;
+    /* text-decoration: line-through; */
+}
+del[rend]:before{
+    content:"del: "attr(rend)"";
+    color:black;
+    /* text-decoration: line-through; */
+}
+del[quantity][rend]:before{
+    content:"del: "attr(rend)" "attr(quantity)" chars";
+    color:black;
+    /* text-decoration: line-through; */
+}
+del[atLeast][atMost][rend]:before{
+    content:"del: "attr(rend)" "attr(atLeast)"-"attr(atMost)" chars";
+    color:black;
+    /* text-decoration: line-through; */
+}
+
+div {
+}
+div:before{
+    font-size: 170%;
+    content: "div(";
+    background-color:lightgrey;
+    font-size:xx-small;
+    vertical-align:super;
+}
+div:after{
+    font-size: 170%;
+    content: ")";
+    background-color:lightgrey;
+    font-size:xx-small;
+    vertical-align:super;
+}
+
+div > head {
+  font-size: 120%;
+  /*text-indent: -0.5em;*/
+}
+div > head[type]:before {
+    content: "head: "attr(type)"(";
+    background-color:orange;
+    font-size:xx-small;
+    vertical-align:super;
+}
+div > head[type]:after {
+    content: ")";
+    background-color:orange;
+    font-size:xx-small;
+    vertical-align:super;
+}
+
+/*
+div > div > head {
+  font-size: 155%;
+}
+div > div > div > head {
+  font-size: 140%;
+}
+div > div > div > div > head, list > head {
+  font-size: 130%;
+}
+div > div > div > div > div > head {
+  font-size: 120%;
+}
+div > div > div > div > div > div head {
+  font-size: 110%;
+}
+hi[rend="caps"] {
+  font-weight:bold;
+}
+hi[rend="italic"] {
+  font-style: italic;
+}
+*/
+
+expan {
+}
+expan:before {
+    content:"expan ";
+    font-size:xx-small;
+    vertical-align:super;
+}
+expan[cert=high] {
+    background-color:darkgreen;
+}
+expan[cert=medium] {
+    background-color:green;
+}
+expan[cert=low] {
+    background-color:lightgreen;
+}
+
+gap {
+    background-color: orange;
+}
+gap:before {
+    background-color: orange;
+    content:"gap ";
+    font-size:xx-small;
+    vertical-align:super;
+}
+gap[quantity=1]:before{ /* does not work */
+    content:"gap "attr(quantity)" char";
+    /* text-decoration: line-through; */
+}
+gap[quantity]:before{
+    content:"gap "attr(quantity)" chars";
+    /* text-decoration: line-through; */
+}
+gap[atLeast][atMost]:before{
+    content:"gap "attr(atLeast)"-"attr(atMost)" chars";
+    /* text-decoration: line-through; */
+}
+
+lb {
+}
+lb:before {
+  content: "\a";
+  vertical-align:sub;
+  white-space: pre; /* Whitespace is preserved by the browser. Text will only wrap on line breaks. */
+}
+lb[n$="0"]:before{
+    content: "\a"attr(n)" "; /* \9 tab char */
+    color:blue;
+    font-size:small;
+}
+lb[n$="5"]:after{
+    content: "\a"attr(n)" ";
+    color:blue;
+    font-size:small;
+}
+note {
+
+  display: block;
+  /*margin: 1.5em auto 1.5em auto;*/
+  padding: .5em 1.5em 1.5em 1.5em;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 325px;
+  /*position: relative;*/
+  border: 1px solid #aaaaaa;
+  background: #E6421D;
+
+  /* reset text-indent for note with <l> ancestors. */
+  /*
+  text-indent: 0;
+  font-size: 85%;
+  text-align: justify;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  */
+
+    /*
+  display:none;
+  color: red;
+  font-size:small;*/
+}
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  text-align: justify;
+}
+p:before {
+    /* content: "\182"; */ /* paragraphe symbol: Unicode Character 'PILCROW SIGN' */
+    color:blue;
+}
+
+pb {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+pb:before {
+    content: "Folio "attr(n)"";
+    color:blue;
+}
+/*
+pb:before {
+	content: "[page:\a0" attr(n) "]"; Unicode Character 'NO-BREAK SPACE'
+}
+*/
+
+sourceDesc msIdentifier > * {
+    display: block;
+    font-size: small;
+    margin-left: 3em;
+    line-height: 1.5;
+}
+
+sourceDesc {
+    display: block;
+    /* margin-top: 1em;
+    margin-bottom: 1em;*/
+    border-radius: 5px;
+    border: 0px solid lightgrey;
+    background:white;
+}
+sourceDesc:before {
+    content: "Source Description";
+    font-weight:bold;
+}
+sourceDesc:after {
+    content: "Revision Status";
+    font-weight:bold;
+}
+sourceDesc country:before {
+    content: "country: ";
+    color:gray;
+}
+sourceDesc collection:before {
+    content: "collection: ";
+    color:gray;
+}
+sourceDesc idno:before {
+    content: "idno: ";
+    color:gray;
+}
+sourceDesc repository:before {
+    content: "repository: ";
+    color:gray;
+}
+sourceDesc settlement:before {
+    content: "settlement: ";
+    color:gray;
+}
+
+revisionDesc {
+    display: inline;
+    margin-top: 1em;
+    border-radius: 5px;
+    border: 0px solid lightgrey;
+    background:white;
+}
+revisionDesc:before {
+    /* content: "Revision Description"; */
+    font-weight:bold;
+    color:red;
+    content: attr(status);
+    font-size: small;
+    margin-left: 3em;
+}
+
+publicationStmt > * {
+    display: block;
+    font-size: small;
+    margin-left: 3em;
+    line-height: 1.5;
+}
+
+publicationStmt {
+    display: block;
+    margin-top: 1em;
+    /* margin-bottom: 1em; */
+    border-radius: 5px;
+    border: 0px solid lightgrey;
+    background:white;
+}
+publicationStmt:before {
+    content: "Publication Statement";
+    font-weight:bold;
+}
+publicationStmt > date:before {
+    content: "date: ";
+    color:gray;
+}
+publicationStmt > publisher:before {
+    content: "publisher: ";
+    color:gray;
+}
+publicationStmt > pubPlace:before {
+    content: "place: ";
+    color:gray;
+}
+
+seg {
+    background-color: orange;
+}
+seg:before {
+    font-size:xx-small;
+    content: "seg(";
+    vertical-align:super
+}
+seg[type]:before {
+    font-size:xx-small;
+    content: "seg(type:"attr(type)"";
+    vertical-align:super
+}
+seg:after {
+    font-weight: bold;
+    font-size:xx-small;
+    content: ")";
+    vertical-align:super
+}
+
+sic {
+    background-color: orange;
+    color: red;
+}
+sic:before {
+    font-size:xx-small;
+    content: "sic";
+    color:black;
+    vertical-align:super
+}
+/*
+sic:after {
+    font-weight: bold;
+    font-size:xx-small;
+    content: ")";
+    vertical-align:super
+}*/
+
+subst {
+    background-color: orange;
+}
+subst:before {
+    font-size:xx-small;
+    content: "subst(";
+    vertical-align:super
+}
+subst:after {
+    font-size:xx-small;
+    content: ")";
+    vertical-align:super
+}
+
+supplied {
+    background-color:green;
+}
+supplied:before {
+    content:"supplied ";
+    font-size:xx-small;
+    vertical-align:super;
+}
+supplied[resp=editor] {
+    background-color:white;
+    color:blue;
+}
+supplied[resp=editor]:before {
+    content:"";
+}
+
+supplied[cert=high] {
+    background-color:darkgreen;
+}
+supplied[cert=medium] {
+    background-color:green;
+}
+supplied[cert=low] {
+    background-color:lightgreen;
+}
+
+TEI {
+    display: block;
+    margin-left: 2em;
+    margin-right: 4em;
+    padding: 2.5em;
+    font-family: "Lucida Grande", "Cardo", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
+    font-size: 12pt;
+    background-color: white;
+}
+
+teiHeader {
+  display: block;
+/*
+border-radius: 15px;
+border: 1px solid black;
+background:white;
+*/
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+TEI > text {
+  display: block;
+  /*
+border-radius: 15px;
+border: 1px solid black;
+background:white;
+*/
+  line-height: 1.5;
+}
+
+titleStmt > * {
+    display:block;
+}
+
+titleStmt > title {
+  display: block;
+  font-family: Arvo, sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+unclear {
+    background-color: orange;
+}
+unclear:before {
+    background-color: orange;
+    content:"unclear ";
+    font-size:xx-small;
+    vertical-align:super;
+}
+unclear[quantity]:before{
+    content:"unclear "attr(quantity)" chars";
+    /* text-decoration: line-through; */
+}
+unclear[atLeast][atMost]:before{
+    content:"unclear "attr(atLeast)"-"attr(atMost)" chars";
+}
+unclear[quantity][reason]:before {
+    content:"unclear "attr(quantity)" chars reason:"attr(reason)"";
+}
+unclear[atLeast][atMost][reason]:before{
+    content:"unclear "attr(atLeast)"-"attr(atMost)" chars reason:"attr(reason)"";
+}
