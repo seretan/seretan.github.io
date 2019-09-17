@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="https://seretan.github.io/IRSB-Collation/xml/tei-irsb.css"?>
+<!DOCTYPE TEI PUBLIC "TEI" "https://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Acta Barnabae (BHL983)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IRSB - Projet FNS « Éditer la littérature apocryphe chrétienne » </publisher>
+				<pubPlace>Lausanne</pubPlace>
+				<date>2017…</date>
+			</publicationStmt>
+		<sourceDesc>
+			<msDesc>
+				<msIdentifier>
+					<country>Vaticano</country>
+					<settlement>Vaticano</settlement>
+					<repository>Biblioteca Apostolica Vaticana</repository>
+					<collection>Arch. Cap. S. Pietro</collection>
+					<idno>A. 3 (alias B)</idno>
+				</msIdentifier>
+			</msDesc>
+		</sourceDesc>
+		</fileDesc>
+	<revisionDesc status="transcription-finished">
+		<change />
+	</revisionDesc>
+</teiHeader>
+<text>
+	<body>
+		<pb n="165v" />
+		<cb n="2" />
+	<div>
+		<head type="initial">
+			<lb n="4" />
+				Passio
+				<lb n="5" />
+				<abbr type="ns">sci</abbr>
+				Barnabe
+				<abbr type="ns">apli</abbr>.
+			</head>
+			<head type="lectio">
+				<abbr type="ns">Lec</abbr>. i.<supplied resp="editor">-</supplied><lb n="6" /><note>changer le type d'abbréviation?</note>
+			</head>
+	<p>
+		<abbr type="ns">iohs</abbr> igitur qui et<lb n="7" />
+		Marcus famulus <abbr type="ns">dni</abbr> <abbr type="ns">nri</abbr><lb n="8" />
+		<abbr type="ns">ihu</abbr> <abbr type="ns">xpi</abbr>.
+		discipulus
+		uero<note>je sais jamais si je dois marque en ns ou pas</note>
+		<abbr type="ns">scorum</abbr><lb n="9" />
+		<abbr type="ns">aplorum</abbr> Pauli et Barnabe. mys<supplied resp="editor">-</supplied><lb n="10" />tica
+		dei opera quȩ diuinitus<lb n="11" />
+		uidi et diligenter cognoui.<lb n="12" />
+		gradiendo scilicet cum pre<supplied resp="editor">-</supplied><lb n="13" />dictis
+		<abbr type="ns">scis</abbr> <abbr type="ns">aplis</abbr>.
+		et famulan<supplied resp="editor">-</supplied><lb n="14" />do
+		in ministerio illorum omnibus<lb n="15" />
+		fidelibus in <abbr type="ns">xpi</abbr> <abbr type="ns">eccla</abbr>
+		commo<supplied resp="editor">-</supplied><lb n="16" />rantibus per
+		<abbr type="ns">gram</abbr>
+		<abbr type="ns">dni</abbr> fideliter<lb n="17" />
+		pando. Denique cum essem ethnicus<lb n="18" />
+		et famulator ydolorum. commoran<supplied resp="editor">-</supplied><lb n="19" />do
+		scilicet in mynisterio <seg>
+			<unclear unit="character" quantity="1" reason="damage" />
+			<supplied cert="high">C</supplied>
+		</seg>irilli<lb n="20" />
+		quondam pontificis nefand<seg>
+			<unclear unit="character" quantity="2" reason="damage" />
+			<supplied cert="high">is</supplied></seg>
+		simi templi Iouis. annu<seg>
+			<unclear unit="character" quantity="4" reason="damage" />
+			<supplied cert="medium">ente</supplied>
+		</seg><lb n="21" />
+		<abbr type="ns">gra</abbr>
+		<abbr type="ns">dni</abbr>
+		<abbr type="ns">nri</abbr>
+		<abbr type="ns">ihu</abbr>
+		<abbr type="ns">xpi</abbr>
+		bapti<seg>
+			<unclear unit="character" reason="damage" atLeast="4" atMost="6" />
+			<supplied cert="medium">zatus</supplied>
+		</seg><lb n="22" />
+		sum per beatum  Paulum et
+		Bar<seg>
+			<unclear unit="character" reason="damage" atLeast="1" atMost="3" />
+			<supplied cert="high">na</supplied>
+		</seg><supplied resp="editor">-</supplied><lb n="23" />ban,<note>normalisation des types de ponctuation</note>
+		qui digni fuerunt uocati<supplied resp="editor">-</supplied><lb n="24" />one
+		<abbr type="ns">di</abbr>. in loco  qui dicitur Yco<supplied resp="editor">-</supplied><lb n="25" />nium.
+		Postquam uero sacrum<lb n="26" />
+		baptismum suscepi : uidi in uisi<supplied resp="editor">-</supplied><lb n="27" />one
+		uirum splendidum atque mi<supplied resp="editor">-</supplied><lb n="28" />rabilem :
+		amictum stola candi<supplied resp="editor">-</supplied><lb n="29" />da.
+		qui dixit michi. Constans<lb n="30" />
+		esto <abbr type="ns">iohs</abbr><note>tâche plutôt que point?</note>
+		et crede fiducialiter.<lb n="31" />
+		quoniam quidem amodo non <abbr type="ns">Iohs</abbr><lb n="32" />
+		sed Marcus id est excelsus uo<supplied resp="editor">-</supplied><lb n="34" />caberis.
+		et <abbr type="ns">glam</abbr>
+		excellentiȩ tuȩ<lb n="35" />
+		ubique praedicari  et glorificari o<supplied resp="editor">-</supplied><lb n="36" />portet :
+		pro eo scilicet  quia tenebre<lb n="37" />
+		quae ante fuerunt in te. penitus<pb n="166r" /><cb n="1" /><lb n="1" />
+		effugate sunt. et data est tibi <abbr type="ns">gra</abbr><lb n="2" />
+		et intellectus.  ut cognoscas<note>point en haut ou tache?</note>
+		mys<supplied resp="editor">-</supplied><lb n="3" />teria dei omnipotentis.
+	</p>
+	<head type="lectio">
+		<abbr type="ns">Lec</abbr>. ii.<supplied resp="editor">-</supplied><lb n="4" /><note>changer le type d'abbréviation?</note>
+	</head>
+	<p>
+		Cernendo itaque hanc reuelationem<lb n="5" />
+		obstupui fateor. et euigilans proci<supplied resp="editor">-</supplied><lb n="6" />di
+		ad pedes beati Barnabe. ac<lb n="7" />
+		seriatim illi omnia quȩ a praedicto<lb n="8" />
+		uiro cognoui. professus sum. In<supplied resp="editor">-</supplied><lb n="9" />terea
+		beatus Paulus non ibi erat.<lb n="10" />
+		quando hȩc secreta <abbr type="ns">di</abbr> <abbr type="ns">sco</abbr>
+		Barna<supplied resp="editor">-</supplied><lb n="11" />be
+		pandere studebam. Postquam<lb n="12" />
+		uero idem beatus Barnabas dili<supplied resp="editor">-</supplied><lb n="13" />genter
+		animaduertit <abbr type="ns">nram</abbr> reuelationem.  commonuit me dicens.<lb n="14" />
+		Precaue diligenter. et pone custo<supplied resp="editor">-</supplied><lb n="15" />diam
+		ori tuo. ne alicui uirtu<supplied resp="editor">-</supplied><lb n="16" />tem
+		mysterii quam  uidisti diffe<supplied resp="editor">-</supplied><lb n="17" />ras.
+		Nam et michi similiter<lb n="18" />
+		hac nocte apparuit <abbr type="ns">dns</abbr> dicens.<lb n="19" />
+		constans esto Barnaba. creden<supplied resp="editor">-</supplied><lb n="20" />do
+		uerissime  quoniam pro <abbr type="ns">sca</abbr>
+		deuoti<supplied resp="editor">-</supplied><lb n="21" />one
+		qua reliquisti <abbr type="ns">gnerationem</abbr><lb n="22" />
+		tuam. et tradidisti <abbr type="ns">aiam</abbr> tuam<lb n="23" />
+		pro <abbr type="ns">noie</abbr> meo :<lb n="24" />
+		mea perseuerando.<lb n="25" />
+		premia ȩterna percipies. Attamen<lb n="26" />
+		conuoca <abbr type="ns">iohm</abbr> ministrum tuum.<lb n="27" />
+		quoniamquidem et ipse similiter<lb n="28" />
+		uidit quȩdam mysteria. Interim<lb n="29" />
+		conserua omnia  quȩ uidisti.  quia<note>marque que repassé?</note><lb n="30" />
+		ueniet tempus  quando mani<supplied resp="editor">-</supplied><lb n="31" />festus appareas.
+	</p>
+	<head type="lectio">
+		<abbr type="ns">Lec</abbr>.
+		iii.<lb n="32" />
+	</head>
+	<p>
+	Hanc commonitionem ab illo  percipi<supplied resp="editor">-</supplied><lb n="33" />endo.
+	commorati sumus in praedicto<lb n="34" />
+	Yconio per dies aliquot. in quo<lb n="35" />
+	erat quidam homo iustus et timo<supplied resp="editor">-</supplied><lb n="36" />ratus.
+	qui nos recepit.  et hospi<supplied resp="editor">-</supplied><lb n="37" />talitatem
+	benigne exhibuit. cuius<cb n="2" /><lb n="1" />
+	domum beatus Paulus placide<lb n="2" />
+	benedixit. Deinde uenimus Seleu<supplied resp="editor">-</supplied><lb n="3" />ciam.
+	in qua mansimus diebus<lb n="4" />
+	tribus. Inde nauigantes ueni<supplied resp="editor">-</supplied><lb n="5" />mus
+	Cyprum. eramque in minis<supplied resp="editor">-</supplied><lb n="6" />terio
+	eorum. donec ex Cypro egre<supplied resp="editor">-</supplied><lb n="7" />deremur.
+	Exeuntes autem de Cy<supplied resp="editor">-</supplied><lb n="8" />pro:
+	uenimus Pergén Pamphilie.<lb n="9" />
+	Illis autem abeuntibus ad praedican<supplied resp="editor">-</supplied><lb n="10" />dum.
+	commoratus sum ibi mensibus<lb n="11" />
+	duobus. Cumque disponerem ire<lb n="12" />
+	in partes occidentis : prohibuit<lb n="13" />
+	me <abbr type="ns">sps</abbr> <abbr type="ns">scs</abbr>.
+	Igitur cum audis<supplied resp="editor">-</supplied><lb n="14" />sem
+	quod idem <abbr type="ns">sci</abbr> <abbr type="ns">apli</abbr> Paulus<lb n="15" />
+	et Barna<add place="above" hand="?">bas</add>
+	Antyochie essent.  conti<supplied resp="editor">-</supplied><lb n="16" />nuo
+	perrexi ad illos. inuenique bea<supplied resp="editor">-</supplied><lb n="17" />tum
+	Paulum fatigari ex itinere.<lb n="18" />
+	atque in grabato requiescentem.<lb n="19" />
+	Qui cum me cerneret  gauisus<lb n="20" />
+	est.
+	sed arguere cȩpit  pro  quod<lb n="21" />
+	moram fecissem ue<seg>
+		<unclear reason="damage" unit="character" atLeast="2" atMost="4" />
+		<supplied cert="medium">nire</supplied>
+	</seg>
+	de Pam<supplied resp="editor">-</supplied><lb n="22" />philia. et detinuissem lib<seg>
+		<unclear reason="damage" unit="character" atLeast="2" atMost="4" />
+		<supplied cert="medium">rum</supplied>
+	</seg>
+	<seg>
+		<unclear reason="damage" unit="character" quantity="1" />
+		<supplied cert="medium">prae</supplied>
+	</seg><supplied resp="editor">-</supplied><lb n="23" />dicationis.
+	Recreati autem ex itine<supplied resp="editor">-</supplied><lb n="24" />re.
+	cȩperunt praedicare uerbum <abbr type="ns">di</abbr>.<lb n="25" />
+	</p>
+	<head type="lectio">
+		<abbr type="ns">Lec</abbr>.
+		iiii.
+	</head>
+	<p>
+		Ad quorum praedicationem<lb n="26" />
+		plurimi Iudeorum atque gentilium<lb n="27" />
+		illuminati. crediderunt in <abbr type="ns">dnm</abbr><lb n="28" />
+		<abbr type="ns">xpm</abbr>.
+		Expleta namque praedicatione<lb n="29" />
+		statuerunt ire ad praedicandum in<lb n="30" />
+		orientem. et tunc demum reuer<supplied resp="editor">-</supplied><lb n="31" />terentur
+		ad Cyprum. ut uisitarent<lb n="32" />
+		<abbr type="ns">ȩcclas</abbr> in quibus uerbum <abbr type="ns">dni</abbr>
+		prae<supplied resp="editor">-</supplied><lb n="33" />dicauerant.
+		Sed beatus Barnab<seg>
+			<unclear reason="damage" unit="character" atLeast="1" atMost="2" />
+			<supplied cert="high">as</supplied>
+		</seg><lb n="34" />
+		exorabat. ut prius iret in Cyprum.<lb n="35" />
+		ad uisitandos parentes suos. et<lb n="36" />
+		postea communiter <abbr type="ns">hierlm</abbr> perge<supplied resp="editor">-</supplied><lb n="37" />rent.
+		Inter hȩc autem <abbr type="ns">anglica</abbr> uisio<pb n="166v" /><cb n="1" /><lb n="1" />
+		per noctem facta est beato Paulo<lb n="2" />
+		<abbr type="ns">aplo</abbr>
+		dicens.  Cȩlerius propera
+		<abbr type="ns">ierlm</abbr>.<lb n="3" />
+		nec moram facias. quóniamquidem<lb n="4" />
+		<abbr type="ns">frs</abbr> ualde praestolantur aduentum<lb n="5" />
+		tuum. Quod cum beato Barnabe<lb n="6" />
+		panderet : ait.  Quia uoluntati<lb n="7" />
+		<abbr type="ns">di</abbr> contradicere non expedit.<lb n="8" />
+		fiat uoluntas <abbr type="ns">dni</abbr>.
+		Tantum ob<supplied resp="editor">-</supplied><lb n="9" />secro
+		intercede pro me ad <abbr type="ns">dnm</abbr>. ut<lb n="10" />
+		decertatio mea fiat acceptabilis<lb n="11" />
+		in conspectu eius. secundum deuotio<supplied resp="editor">-</supplied><lb n="12" />nem
+		qua famuli sui sumus in<lb n="13" />
+		ministerio  quod donatum est nobis.<lb n="14" />
+		Nunc autem propero Cyprum. ibique fi<supplied resp="editor">-</supplied><lb n="15" />nem
+		compleo uitȩ. faciemque tuam<lb n="16" />
+		heu pro dolor corporaliter non uisurus.<lb n="17" />
+	</p>
+	<head type="lectio">
+		<abbr type="ns">lec.</abbr>
+		v.
+	</head>
+	<note>en marge, mais inutile de signaler, le head suffit</note>
+	<p>
+		Hec praeloquens. procidit ad pedes<lb n="18" />
+		eius et fleuit amare diu. Cuius<lb n="19" />
+		dolori beatus Paulus compatiens :<lb n="20" />
+		noli inquit mereri frater. non<lb n="21" />
+		enim hoc sine mysterio diuino<lb n="22" />
+		agitur. Namque apparuit michi<lb n="23" />
+		hac nocte <abbr type="ns">dns</abbr> dicens.
+		ne pro<seg>
+			<unclear reason="damage" unit="character" quantity="2" />
+			<supplied cert="high">hi</supplied>
+		</seg><supplied resp="editor">-</supplied><lb n="24" />beas
+		Barnaban ire Cyprum. quoniam<lb n="25" />
+		illic praeparata est ei
+		<abbr type="ns">gra</abbr> <abbr type="ns">di</abbr>
+		ad illu<supplied resp="editor">-</supplied><lb n="26" />minationem $
+		multorum. et sacrum<lb n="27" />
+		martyrium persiciendum. tu autem<lb n="28" />
+		perge <abbr type="ns">hierlm</abbr> ad loca sacra uisen<supplied resp="editor">-</supplied><lb n="29" />da.
+		Tunc positis genibus. orantes<lb n="30" />
+		et osculantes nos adinuicem<lb n="31" />
+		uale fecimus. Et nauigantes<lb n="33" />
+		descendimus Laodiciam. decer<supplied resp="editor">-</supplied><lb n="33" />tantes
+		ut pergeremus Cyprum.<lb n="34" />
+		Deinde uenimus in ciuitatem<lb n="35" />
+		quȩ uocatur Anemoria. in qua<lb n="36" />
+		inuenimus quosdam uiros<lb n="37" />
+		<choice>
+			<abbr type="tachy">qua̅qua̅</abbr>
+			<expan cert="high">quanquam</expan>
+			<expan cert="high">quamquan</expan>
+		</choice>
+		ethnicos. tamen sagaciter<cb n="2" /><lb n="1" />
+		pollentes. Qui nos cernentes.<lb n="2" />
+		sapienter interrogare ceperunt di<supplied resp="editor">-</supplied><lb n="3" />centes.
+		O uiri· qui estis. unde<lb n="4" />
+		et quo ?
+		uel que res<note>amusant une deuxième main à signaler la division de mot</note>
+		uos attulit<lb n="5" />
+		<abbr type="ns">nris</abbr> oris ?
+		Animaduertens autem<lb n="6" />
+		beatus Barnabas illorum sapien<supplied resp="editor">-</supplied><lb n="7" />tiam
+		ipse quoque sapienter eis<lb n="8" />
+		respondere studuit. Si nosse<lb n="9" />
+		inquit cupitis. qui sumus. unde<lb n="10" />
+		et quo. uel quam obrem uenimus :<lb n="11" />
+		scitote  quia famuli sumus <abbr type="ns">dni</abbr><lb n="12" />
+		<abbr type="ns">ihu</abbr> <abbr type="ns">xpi</abbr>.
+		creatoris cȩli et terrȩ.<lb n="13" />
+		uenientes ab Hierosolimis pergi<supplied resp="editor">-</supplied><lb n="14" />mus
+		ubique ad praedicandum nomen<lb n="15" />
+		eius. quia ipse est filius <abbr type="ns">di</abbr>
+		<abbr type="ns">oipis</abbr>.<lb n="16" />
+		et qui crediderit in illum. non<lb n="17" />
+		morietur. sed uitam percipiet sempi<supplied resp="editor">-</supplied><lb n="18" />ternam.
+		Uerumptamen si cognoscere<lb n="19" />
+		cupitis hoc.  exuite uos uestimen<supplied resp="editor">-</supplied><lb n="20" />tis
+		quȩ ueterescunt  et pereunt.<lb n="21" />
+		et induimini uestibus quȩ non<lb n="22" />
+		pereunt. sed <abbr type="ns">glosa</abbr>
+		et splendida per<supplied resp="editor">-</supplied><lb n="23" />manent in
+		ȩternum.
+	</p>
+	<head type="lectio">
+		<abbr type="ns">Lec</abbr>.
+		vi.<lb n="24" />
+	</head>
+	<p>
+		Hec audientes: attoniti ualde:<lb n="25" />
+		compuncti sunt corde: ammi<supplied resp="editor">-</supplied><lb n="26" />rantes
+		et dicentes.
+		Quis enim<lb n="27" />
+		<abbr type="ns">ds</abbr>
+		prépotens. talia praebere ualet?<lb n="28" />
+		Ad hȩc beatus <abbr type="ns">apls</abbr>. Si enim esse qui<lb n="29" />
+		ultis  quȩ dicimus : confite<supplied resp="editor">-</supplied><lb n="30" />mini
+		<abbr type="ns">pecca</abbr> <abbr type="ns">ura</abbr>
+		credentes in<lb n="31" />
+		<abbr type="ns">dnm</abbr>
+		<abbr type="ns">xpm</abbr>.
+		percipientes sacrum<lb n="32" />
+		baptismum. et proculdubio acci<supplied resp="editor">-</supplied><lb n="33" />pietis
+		que uobis promittimus. Cumque<lb n="34" />
+		illi responderent cuncta patrare<lb n="35" />
+		breuiter. <abbr type="ns">sce</abbr> trinitatis mysterium<lb n="36" />
+		exponendo descendit cum illis<lb n="37" />
+		in fontem.  et baptisauit eos in <abbr type="ns">noie</abbr><pb n="167r" /><cb n="1" /><lb n="1" />
+		patris et filii et <abbr type="ns">sps</abbr> <abbr type="ns">sci</abbr>.
+		induitque<lb n="2" />
+		uestibus <abbr type="ns">scȩ</abbr> religionis. Cum<lb n="3" />
+		autem se cognouissent esse <abbr type="ns">xpi<supplied resp="editor">-</supplied><lb n="4" />colas</abbr>.
+		et uirtutem accepisse
+		<abbr type="ns">sps</abbr> <abbr type="ns">sci</abbr>.<lb n="5" />
+		ceperunt gaudere. et glorificare<lb n="6" />
+		<abbr type="ns">dnm</abbr>
+		<abbr type="ns">xpm</abbr>.
+		Conferentes autem<lb n="7" />
+		quedam subsidia : conuocatis<lb n="8" />
+		pauperibus <abbr type="ns">apls</abbr>.
+		distribuit il<supplied resp="editor">-</supplied><lb n="9" />lis
+		prout cuique opus erat : instru<supplied resp="editor">-</supplied><lb n="10" />ens
+		et commonens. ut permane<supplied resp="editor">-</supplied><lb n="11" />rent
+		in
+		<abbr type="ns">gra</abbr>
+		<abbr type="ns">di</abbr>  quam
+		perceperant.<lb n="12" />
+	</p>
+	<head type="lectio">
+		<abbr type="ns">Lec</abbr>.
+		vii.
+	</head>
+	<p>
+		Nauigantes autem<lb n="13" />
+		peruenimus Cyprum. ibique inue<supplied resp="editor">-</supplied><lb n="14" />nimus
+		Timonem et Aristόnem<lb n="15" />
+		famulos <abbr type="ns">dni</abbr>.
+		Timon autem<lb n="16" />
+		urebatur magnis febribus. Cui<lb n="17" />
+		cum manus imposuisset beatus<lb n="18" />
+		Barnabas. et sacrum <abbr type="ns">ȩuglium</abbr>.<lb n="19" />
+		per inuocationem <abbr type="ns">dni</abbr> saluatoris.<lb n="20" />
+		statim febris fugata est. et ádeo<lb n="21" />
+		corroboratus est.
+		ut continuo<lb n="22" />
+		nos cum gaudio sequeretur.<lb n="23" />
+		Ex doctrina autem
+		<abbr type="ns">scorum</abbr>
+		<abbr type="ns">aplorum</abbr><lb n="24" />
+		beatus
+		Barnabas <abbr type="ns">ȩuanglium</abbr><lb n="25" />
+		<abbr type="ns">sci</abbr>
+		Mathei <abbr type="ns">apli</abbr>
+		secum ferebat :<lb n="26" />
+		et
+		<choice>
+			<abbr type="tachy">ubicu̅q:</abbr>
+			<expan cert="high">ubicunque</expan>
+			<expan cert="high">ubicumque</expan>
+		</choice>
+		inueniebat infirmos.<lb n="27" />
+		ponebat illud super eos. et conti<supplied resp="editor">-</supplied><lb n="28" />nuo
+		sanabantur. Exeuntes autem<lb n="29" />
+		inde inuenimus uirum <abbr type="ns">noie</abbr><lb n="30" />
+		Eraclium. quem beatus Paulus<lb n="31" />
+		<abbr type="ns">apls</abbr>
+		cum <abbr type="ns">sco</abbr> Barnaba bapti<supplied resp="editor">-</supplied><lb n="32" />zauerat.
+		et recepto <abbr type="ns">spu</abbr>
+		<abbr type="ns">sco</abbr>.<lb n="33" />
+		<abbr type="ns">epm</abbr>
+		ordinauerant ad commu<supplied resp="editor">-</supplied><lb n="34" />nionem
+		fidelium. Hic nos cum<lb n="35" />
+		gaudio excipiens: hospitalita<supplied resp="editor">-</supplied><lb n="36" />tem
+		praecipuam exhibuit. Post<lb n="37" />
+		hȩc autem inuenimus quendam<cb n="2" /><lb n="1" />
+		uirum <abbr type="ns">noie</abbr> Rodone quamuis et<supplied resp="editor">-</supplied><lb n="2" />hnicum.
+		tamen iustum atque benig<supplied resp="editor">-</supplied><lb n="3" />num.
+		Huic cum beatus <abbr type="ns">apls</abbr><lb n="4" />
+		<abbr type="ns">scam</abbr> fidem exponeret. conti<supplied resp="editor">-</supplied><lb n="5" />nuo
+		credidit in <abbr type="ns">dnm</abbr> et bapti<supplied resp="editor">-</supplied><lb n="6" />zatus
+		sequutus est nos. His ita<lb n="7" />
+		gestis : obuium habuimus impium<lb n="8" />
+		et maleficum iudeum <abbr type="ns">noie</abbr><lb n="9" />
+		Bariesum.	quem olim beatus Paulus<lb n="10" />
+		lumine priuauerat. Hic namque<lb n="11" />
+		cum agnouisset beatum <abbr type="ns">aplm</abbr>.<lb n="12" />
+		malitia
+		<choice>
+			<abbr type="tachy">co̅motus</abbr>
+			<expan cert="high">commotus</expan>
+			<expan cert="high">conmotus</expan>
+		</choice>.
+		prohibuit nos<lb n="13" />
+		introire in Paphum. Proinde<lb n="14" />
+		reuertentes. uenimus in locum<lb n="15" />
+		in quo ethnici uiri et femmȩ<lb n="16" />
+		ludendo nudi currebant.
+	</p>
+	<head type="lectio">
+		<abbr type="ns">Lec</abbr>.
+		viii.<lb n="17" />
+	</head>
+	<p>
+		Hoc cum uidisset beatus Barna<supplied resp="editor">-</supplied><lb n="18" />bas.
+		indignatus super tale facinus.<lb n="19" />
+		maledixit continuo templum.<lb n="20" />
+		Statimque pars orientis funditus<lb n="21" />
+		corruit. magnaque contritio ex<lb n="22" />
+		ethnicis facta est. qui sub rui<supplied resp="editor">-</supplied><lb n="23" />na
+		ipsa mortui sunt. Cȩteri<lb n="24" />
+		autem qui euaserunt. fugerunt<lb n="25" />
+		in templum Apollinis. Nemo<lb n="26" />
+		itaque miretur quod predictus<lb n="27" />
+		Bariesus. postquam a beato Paulo<lb n="28" />
+		<abbr type="ns">aplo</abbr>
+		lumine priuatus fuerat.<lb n="29" />
+		uisum receperit.  cum non il<supplied resp="editor">-</supplied><lb n="30" />lum
+		perpetualiter sed ut conuer<supplied resp="editor">-</supplied><lb n="31" />tere<del hand="other?" rend="dotted">n</del>t<add hand="other?">ur</add> :
+		ad tempus percusserit  dicens.<lb n="32" />
+		eris caecus usque ad tempus. Ergo<lb n="33" />
+		liquidius constat. ut ad precem<lb n="34" />
+		Sergii<note>trait au dessus > moyen de distinguer les deux ii, pas accent</note> per beatum <abbr type="ns">aplm</abbr> conuersus<lb n="35" />
+		lumen recepit. postmodum uero<lb n="36" />
+		sicut ille Symon magus apos<supplied resp="editor">-</supplied><lb n="37" />tatando
+		transgressor fuerit.<pb n="167v" /><cb n="1" /><lb n="1" />
+		Introeuntibus nobis itaque in Sala<supplied resp="editor">-</supplied><lb n="2" />minam.
+		inuenimus synagogam<lb n="3" />
+		Iudeorum quam beatus <abbr type="ns">apls</abbr> exor<supplied resp="editor">-</supplied><lb n="4" />tari
+		cȩpit. et per <abbr type="ns">euanglium</abbr>
+		<abbr type="ns">sci</abbr><lb n="5" />
+		Mathei  <abbr type="ns">xpi</abbr> <abbr type="ns">gram</abbr>
+		introducere.<lb n="6" />
+		Hoc dum praefatus comperisset Bar<supplied resp="editor">-</supplied><lb n="7" />iesus.
+		et quia plurimi Iudeorum<lb n="8" />
+		recepissent praedicationem <abbr type="ns">sci</abbr> <abbr type="ns">apli</abbr>.<lb n="9" />
+		omnem malitiam iniquitatis<lb n="10" />
+		suȩ ostendens. seditione facta<lb n="11" />
+		contra <abbr type="ns">scm</abbr> <abbr type="ns">aplm</abbr>
+		comprehen<supplied resp="editor">-</supplied><lb n="12" />derunt
+		eum. et querebant tra<supplied resp="editor">-</supplied><lb n="13" />dere
+		consuli eiusdem Salamine<lb n="14" />
+		ciuitatis. affligentes illum multis<lb n="15" />
+		suppliciis. et uariis cruciatibus.<lb n="16" />
+	</p>
+	<head type="lectio">
+		<abbr type="ns">Lec</abbr>.
+		viiii.
+	</head>
+	<p>
+		De hinc cum maceratum<lb n="17" />
+		et quassatum pȩnis ducerent ad<lb n="18" />
+		iudicandum. accidit  ut deueni<supplied resp="editor">-</supplied><lb n="19" />ret
+		in eandem insulam Cyprum<lb n="20" />
+		quidam uir magnus et praepo<supplied resp="editor">-</supplied><lb n="21" />tens
+		<abbr type="ns">noie</abbr>
+		Eusebus. scilicet de<lb n="22" />
+		progenie Neronis imperatoris.<lb n="23" />
+		Comperientes autem Iuedi ad<supplied resp="editor">-</supplied><lb n="24" />uentum
+		eius. uerentes nimium<lb n="25" />
+		ne illum eriperet de manibus il<supplied resp="editor">-</supplied><lb n="26" />lorum.
+		ligantes funem in collo eius<lb n="27" />
+		nocturno <abbr type="ns">tpr</abbr> dilaceratum<lb n="28" />
+		a synagoga in yppodrόmum<lb n="29" />
+		pertraxerunt. et deinde foris<lb n="30" />
+		portam. Post hȩc autem circun<supplied resp="editor">-</supplied><lb n="31" />dantes
+		illum igne : crudeliter cre<supplied resp="editor">-</supplied><lb n="32" />mauerunt.
+		Sicque beatus <abbr type="ns">apls</abbr><lb n="33" />
+		post multos  agόnes et diutur<supplied resp="editor">-</supplied><lb n="34" />na
+		certamina. pro <abbr type="ns">xpi</abbr> amore<lb n="35" />
+		adustus migrauit ad gaudia<lb n="36" />
+		sempiterna. Impii autem Iudei<lb n="37" />
+		non satiati de nece illius. zelo<cb n="2" /><lb n="1" />
+		odii concitati : tulerunt sacra<supplied resp="editor">-</supplied><lb n="2" />tissimum
+		corpus. et in locello<lb n="3" />
+		plumbeo recludentes. in mare<lb n="4" />
+		precipitare disponebant. Interim<lb n="5" />
+		ego praefatus <abbr type="ns">iohs</abbr> qui et Marcus<lb n="6" />
+		una cum predictis Tymone et<lb n="7" />
+		Rodone occulte nocturnis ho<supplied resp="editor">-</supplied><lb n="8" />ris
+		tulimus illud. et collocaui<supplied resp="editor">-</supplied><lb n="9" />mus
+		in cripta  quȩ  olim fuerat<lb n="10" />
+		habitatio Iebuseorum. tertio idus<lb n="11" />
+		iunii. hoc est undecima die<lb n="12" />
+		ipsius mensis. Propter hanc<lb n="13" />
+		itaque occultam collocationem<lb n="14" />
+		plurimis annorum curriculis<lb n="15" />
+		uenerabile corpus illius latuit. nec<lb n="16" />
+		inueniri a <abbr type="ns">xpicolis</abbr> ualuit.
+		Sed<lb n="17" />
+		<abbr type="ns">ds</abbr>
+		<abbr type="ns">omips</abbr>
+		qui non patitur <abbr type="ns">glam</abbr><lb n="18" />
+		occultari <abbr type="ns">scorum</abbr> suorum. tempore<lb n="19" />
+		Zenonis imperatoris et <abbr type="ns">sci</abbr> Gela<supplied resp="editor">-</supplied><lb n="20" />sii
+		pape. eodem <abbr type="ns">sco</abbr>
+		<abbr type="ns">aplo</abbr>
+		reue<supplied resp="editor">-</supplied><lb n="21" />lante
+		inuentum est  atque cum<lb n="22" />
+		ymnis et  laudibus mirifice col<supplied resp="editor">-</supplied><lb n="23" />locatum.
+		ad honorem et <abbr type="ns">glam</abbr>
+		<abbr type="ns">dni</abbr><lb n="24" />
+		<abbr type="ns">nri</abbr>
+		<abbr type="ns">ihu</abbr>
+		<abbr type="ns">xri</abbr>.
+		qui cum patre et<lb n="25" />
+		<abbr type="ns">spu</abbr>
+		<abbr type="ns">sco</abbr>
+		uiuit  et regnat <abbr type="ns">ds</abbr>.
+		per in<supplied resp="editor">-</supplied><lb n="26" />finita
+		<abbr type="ns">sȩcla</abbr>
+		<abbr type="ns">sȩclorum</abbr>
+		amen.
+</p>
+</div>
+</body>
+</text>
+</TEI>
