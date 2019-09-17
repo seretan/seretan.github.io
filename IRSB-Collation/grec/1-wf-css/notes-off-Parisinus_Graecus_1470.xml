@@ -1,0 +1,689 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="https://seretan.github.io/IRSB-Collation/xml/tei-irsb.css"?>
+<?xml-stylesheet type="text/css" href="https://seretan.github.io/IRSB-Collation/xml/tei-irsb-notes-off.css"?>
+<!DOCTYPE TEI PUBLIC "TEI" "https://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Acta Barnabae</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IRSB - Projet FNS « Éditer la littérature apocryphe chrétienne » </publisher>
+				<pubPlace>Lausanne</pubPlace>
+				<date>2017…</date>
+			</publicationStmt>
+		<sourceDesc>
+			<msDesc xml:id="P">
+				<msIdentifier>
+					<country>France</country>
+					<settlement>Paris</settlement>
+					<repository>Bibliothèque nationale de France</repository>
+					<collection>Grec</collection>
+					<idno>1470</idno>
+				</msIdentifier>
+			</msDesc>
+		</sourceDesc>
+		</fileDesc>
+		<revisionDesc status="approved">
+			<change />
+		</revisionDesc>
+	</teiHeader>
+<text>
+<body>
+	<div>
+		<milestone n="preamble" />
+<pb n="55v" />
+<cb n="2" />
+<milestone n="titre" />
+	<head type="initial">
+		<lb n="20" />
+		περίοδοι και μαρτύριον τοῦ<lb n="21" />
+		<seg place="margin-left" hand="manus1" type="order-number"><num value="84">π̅δ̅</num></seg>
+		ἁγίου βαρνάβα τοῦ
+		αποστο(λου)
+		<lb n="22" />
+	</head>
+<p>
+	<milestone n="1" />
+	ἐπειδήπερ  ἀπὸ τῆς καθόδου τῆς<lb n="23" />
+	τοῦ <abbr type="ns">σρς</abbr> ἡμῶν <abbr type="ns">ιυ</abbr> <abbr type="ns">χῦ</abbr> παρουσίας·<lb n="24" />
+	τοῦ αόκνου
+	καὶ <abbr type="ns">φιλανου</abbr>
+	καὶ ἰσχυροῦ·<lb n="25" />
+	καὶ ποιμένος καὶ διδασκάλου καὶ ἰα<supplied resp="editor">-</supplied><lb n="26" />τροῦ·
+	τὸ ἀπόρρητον καὶ ὅσιον καὶ<lb n="27" />
+	ἄμεμπτον μυστήριον, τῶν τὴν ἐλ<supplied resp="editor">-</supplied><lb n="28" />πίδα
+	ὁσίως κατεχόντων καὶ ἐσφρα<supplied resp="editor">-</supplied><lb n="29" />γισμένων
+	χριστιανῶν ἐθεασά<supplied resp="editor">-</supplied><lb n="30" />μην
+	καὶ εἶδον ἐγὼ ὧ <handShift hand="corr1"/>καὶ <handShift hand="manus1"/>ἐδούλευσα<lb n="31" />
+	προθύμως. ἀναγκαῖον ὠήθην<lb n="32" />
+	ἃ ἤκουσα καὶ εἶδον μυστήρια
+	<milestone n="2" />
+	ἐγὼ<lb n="33" />
+	ἰωάννης ἐξηγήσασθαι συνα<supplied resp="editor">-</supplied><lb n="34" />κολουθῶν
+	βαρνάβα καὶ παύλω<lb n="35" />
+	τοῖς ἁγίοις ἀποστόλοις· ὑπηρέ<pb n="56r" /><cb n="1" /><supplied resp="editor">-</supplied><lb n="1" />της
+	ὢν· τὸ πρὶν μὲν,
+	κυρίλλου τοῦ<lb n="2" />
+	ἀρχιερέως τοῦ διός· νῦν δὲ, χά<supplied resp="editor">-</supplied><lb n="3" />ριν
+	λαβὼν <abbr type="ns">πνς</abbr> ἁγίου δια παύλου<lb n="4" />
+	καὶ βαρνάβα καὶ σíλα τῶν ἀξίων<lb n="5" />
+	τῆς κλήσεως τῶν καὶ βαπτισάν<supplied resp="editor">-</supplied><lb n="6" />των
+	με ἐν εἰκονίω·
+	<milestone n="3" />
+	μετὰ οὖν τὸ<lb n="7" />
+	βαπτισθῆναί με. εἶδον ἄνδρα<lb n="8" />
+	τινὰ ἐφεστῶτα ἐν
+	<handShift hand="corr1"/>λε<subst>
+		<del rend="overstrike">
+			<choice>
+				<unclear reason="other" quantity="1" unit="character" />
+				<supplied cert="high">υ</supplied>
+			</choice>
+		</del>
+		<add hand="corr1" place="inline">η</add>
+	</subst>κῆ <handShift hand="manus1"/>στολῆ<lb n="9" />
+	περιβεβλημένον καὶ εἶπέν μοι·<lb n="10" />
+	θάρσει <handShift hand="corr1"/>ἰωάννη καὶ γὰρ <handShift hand="manus1"/>τὸ <handShift hand="corr1"/>ὄνο<supplied resp="editor">-</supplied><lb n="11" />μα σου
+	<handShift hand="manus1"/>μετονο<handShift hand="corr1"/>μασθήσεται μάρ<supplied resp="editor">-</supplied><lb n="12" />κος, καὶ
+	<handShift hand="manus1"/>ἡ δόξα σου <handShift hand="corr1"/>ἐν ὅλω τῶ κό<supplied resp="editor">-</supplied><lb n="13" />σμω
+	κηρυχθήσεται· καὶ τὸ ἐν σοὶ<lb n="14" />
+	σκότος. παρῆλθεν ἀπο σου· καὶ<lb n="15" />
+	ἐδόθη σοι σύνεσις. προγνῶναι<lb n="16" />
+	τὰ μυστήρια τοῦ <abbr type="ns">θυ</abbr>
+	<milestone n="4" />
+	ὡς δε τὸ ὅρα<supplied resp="editor">-</supplied><lb n="17" />μα
+	εἶδον. σύντρομος γενόμενος<lb n="18" />
+	ἀπῆλθον παρὰ τοὺς πόδας<lb n="19" />
+	βαρνάβας καὶ ἀπήγγειλα αὐ<supplied resp="editor">-</supplied><lb n="20" />τῶ
+	ἃ εἶδον καὶ ἤκουσαν παρὰ<lb n="21" />
+	τοῦ ἀνδρὸς ἐκείνου μυστήρια·<lb n="22" />
+	παῦλος δὲ ὁ ἀπόστολος οὐκ ἦν<lb n="23" />
+	ἐγγιστα ἡνίκα ἀνεθέμην τὰ<lb n="24" />
+	μυστήρια· εἶπεν δέ	μοι βαρνάβας·<lb n="25" />
+	μηδενὶ ἐξείπης τὴν
+	δύνα<subst>
+		<del rend="overstrike">
+			<choice>
+				<unclear reason="other" unit="character" atLeast="2" atMost="3" />
+				<supplied cert="high">μιν</supplied>
+			</choice>
+		</del>
+		<add hand="corr1" place="inline">μυ</add>
+	</subst><lb n="26" />
+	ἣν εἶδες· καμοὶ γὰρ τη νυκτὶ ταύ<supplied resp="editor">-</supplied><lb n="27" />τη
+	παρέστη ὁ <abbr type="ns">κς</abbr> λέγων ὅτι θάρ<supplied resp="editor">-</supplied><lb n="28" />σει·
+	ὡς γὰρ ἔδωκας τὴν ψυχήν<lb n="29" />
+	<handShift hand="manus1"/>σου ὑπερ <handShift hand="corr1"/>τοῦ ὀνόματός μου εἰς τὸ<lb n="30" />
+	<handShift hand="manus1"/>ἀποθανεῖν καὶ ἀπαλλοτριωθῆ<supplied resp="editor">-</supplied><lb n="31" />ναι
+	<handShift hand="corr1"/>τοῦ σου ἐθνους. <handShift hand="manus1"/>οὕτως καὶ τε<supplied resp="editor">-</supplied><lb n="32" />λειωθήση·
+	πλὴν <handShift hand="corr1"/>καὶ τὸν ὄντα  με<supplied resp="editor">-</supplied><lb n="33" />θ
+	<handShift hand="manus1"/>ὑμῶν ὑπηρέτην. <handShift hand="corr1"/>καὶ αὐτὸν<lb n="34" />
+	<handShift hand="manus1"/>συλλαβοῦ μεθ εαυτοῦ.
+	<handShift hand="corr1"/>ἔχει γάρ τι<supplied resp="editor">-</supplied><lb n="35" />να
+	μυστήρια· <handShift hand="manus1"/>νῦν <handShift hand="corr1"/>τέκνον φύλα<cb n="2" /><supplied resp="editor">-</supplied><lb n="1" /><handShift hand="manus1"/>ξον
+	σεαυτῶ τὰ ῥήματα ἃ εἶδες<lb n="2" />
+	καὶ ἤκουσας,  καιρὸς  γάρ σε ἀπο<supplied resp="editor">-</supplied><lb n="3" />καλύψαι
+	μέλλει·
+	<milestone n="5" />
+	ταῦτα δέ μου<lb n="4" />
+	κατηχηθέντος παρ’ αὐτοῦ. ἐ<supplied resp="editor">-</supplied><lb n="5" />μείναμεν
+	ἐν εἰκονίω <handShift hand="corr1"/>ἡμέρας ἱ<supplied resp="editor">-</supplied><lb n="6" />κανὰς·
+	<handShift hand="manus1"/>ἦν γὰρ <handShift hand="corr1"/>ἐκεῖ ὅσιος ἀνὴρ<lb n="7" />
+	<handShift hand="manus1"/>καὶ εὐλαβὴς <handShift hand="corr1"/>ὅστις ἡμᾶς καὶ ὑπε<supplied resp="editor">-</supplied><lb n="8" />δέξατο.
+	<handShift hand="manus1"/>οὗ καὶ <handShift hand="corr1"/>τὸν οἶκον ἡγία<supplied resp="editor">-</supplied><lb n="9" />σε
+	<handShift hand="manus1"/>παῦλος· ἐκεῖθεν <handShift hand="corr1"/>τοίνυν.<lb n="10" />
+	<handShift hand="manus1"/>κατηντήσαμεν ἐν <handShift hand="corr1"/>σελευκεία·<lb n="11" />
+	καὶ <handShift hand="manus1"/>προσμείναντες ἡμέρας<lb n="12" />
+	<num value="3">τρεῖς</num>, ἐπλεύσαμεν <handShift hand="corr1"/>εἰς κύπρον<lb n="13" />
+	καὶ ἤμην ἐγὼ <handShift hand="manus1"/>διακονῶν <handShift hand="corr1"/>αὐτοῖς<lb n="14" />
+	ἄχρις οὗ παρήλθομεν τὴν κύ<supplied resp="editor">-</supplied><lb n="15" />προν·
+	ἀναχθέντες δὲ ἀπὸ τῆς<lb n="16" />
+	κύπρου κατήχθημεν ἐν πέργη<lb n="17" />
+	τῆς παμφυλίας κακεῖσε λοιπὸν<lb n="18" />
+	παρεμεινα
+	ὡσεὶ μῆνας <num value="2">δύο</num><lb n="19" />
+	βουλόμενος ἐπὶ τα
+	δοτικὰ
+	με<supplied resp="editor">-</supplied><lb n="20" />ρη
+	<subst>
+	  <del rend="overstrike">
+			<choice>
+				<unclear reason="other" atLeast="8" atMost="10" />
+				<supplied cert="high">ἀποπλεῦσαι</supplied>
+			</choice>
+		</del>
+		<add hand="corr1" place="inline">ἀποπλεπαι</add>
+	</subst>·
+	καὶ οὐκ εἴασέν με<lb n="21" />
+	τὸ <abbr type="ns">πνα</abbr> τὸ ἅγιον· ἐπιστρέψας δὲ<lb n="22" />
+	πάλιν ἐζήτησα τοὺς ἀποστό<supplied resp="editor">-</supplied><lb n="23" />λους·
+	και  μαθὼν ὅτι ἐν
+	αντιοχεί<supplied resp="editor">-</supplied><lb n="24" />α
+	εἰσὶν. ἐπορεύθη<choice>
+		<unclear reason="damage" unit="character" quantity="1" />
+		<supplied cert="high">ν</supplied>
+	</choice>
+	πρὸς αὐτούς<lb n="25" />
+	<milestone n="6" />
+	εὗρον δὲ τὸν παῦλον ἀπὸ τοῦ κό<supplied resp="editor">-</supplied><lb n="26" />που
+	τῆς ὁδοιπορίας ἐν αντιο<supplied resp="editor">-</supplied><lb n="27" />χεία
+	ἐπὶ τῆς κλίνης· ὃς καὶ ἰ<supplied resp="editor">-</supplied><lb n="28" />δών
+	με, σφόδρα ἐλυπήθη δια<lb n="29" />
+	τὸ βραδυναί με ἐν παμφυλία·<lb n="30" />
+	καὶ
+	<subst>
+		<del rend="overstrike">
+			<choice>
+				<unclear reason="other" atLeast="8" atMost="10" />
+				<supplied cert="medium">προσελθὼν</supplied>
+			</choice>
+		</del>
+		<add place="inline" hand="corr1">προσελθὸν</add>
+	</subst>
+	ὁ βαρνάβας<lb n="31" />
+	παρεκάλεσεν αὐτόν καὶ ἐγέ<supplied resp="editor">-</supplied><lb n="32" />σατο
+	ἄρτου ὀλίγον δὲ ἔλα<supplied resp="editor">-</supplied><lb n="33" />βεν
+	αὐτὸν καὶ εὐηγγελίσαντο<lb n="34" />
+	τὸν λόγον τοῦ <abbr type="ns">κύ</abbr>
+	<choice>
+		<unclear reason="damage" unit="character" quantity="1" />
+		<supplied cert="high">καὶ</supplied>
+	</choice>
+	πολλοὺς
+	τ<subst>
+		<del rend="overstrike">
+			<choice>
+				<unclear reason="other" quantity="1" unit="character" />
+				<supplied cert="high">ῶ</supplied>
+			</choice>
+		</del>
+		<add hand="corr1" place="inline">o</add>
+	</subst>ν
+	<lb n="35" />
+	ἰουδαίων καὶ ἑλλήνων ἐφώστισαν·<pb n="56v" /><cb n="1" /><lb n="1" />
+	<handShift hand="manus1"/>ἐγὼ δὲ μόνον προσεῖχον αὐτοῖς<lb n="2" />
+	καὶ ἐφοβούμην παῦλον προ<supplied resp="editor">-</supplied><lb n="3" />σεγγίσαι
+	αὐτῶ. καὶ διὰ τὸ ἔχειν<lb n="4" />
+	με ἱκανὸν χρόνον ἐν παμφυ<supplied resp="editor">-</supplied><lb n="5" />λία
+	διάγοντα· καὶ πάνυ ταράσ<supplied resp="editor">-</supplied><lb n="6" />σεσθαι
+	αὐτὸν κατ’ ἐμοῦ· μετάνοι<supplied resp="editor">-</supplied><lb n="7" />αν
+	δὲ ἐδίδον ἐπι τοῖς γόνασιν<lb n="8" />
+	εἰς τὴν γῆν παύλω. καὶ οὐκ ἠ<supplied resp="editor">-</supplied><lb n="9" />νείχετο·
+	ὡς δὲ ἐπέμενον ἐπι<lb n="10" />
+	σάββατα <num value="3">τρία</num> τῆ παρακλή<supplied resp="editor">-</supplied><lb n="11" />σει·
+	καὶ τῆ δεήσει γονυπαιτῶν.<lb n="12" />
+	οὐκ ηδυνήθην δυσωπῆσαι αὐ<supplied resp="editor">-</supplied><lb n="13" />τὸν
+	ὑπὲρ ἐμ’αὐτοῦ· ἡ δὲ πολλὴ<lb n="14" />
+	λύπη αὐτοῦ ἦν πρός με,
+	διὰ<lb n="15" />
+	τὸ ἔχειν με τὰς πλείους μεμ<supplied resp="editor">-</supplied><lb n="16" />βράνας
+	ἐν παμφυλία·
+	<milestone n="7" />
+	ὡς δὲ<lb n="17" />
+	ἐγενετο τοῦ τελέσαι αὐτοὺς δι<supplied resp="editor">-</supplied><lb n="18" />δάσκοντας
+	ἐν ἀντιοχεια· τῆ<lb n="19" />
+	<num value="1">μιᾶ</num> τῶν σαββάτων καθεσθέν<supplied resp="editor">-</supplied><lb n="20" />τες
+	ὁμοῦ. συνεβουλεύσαντο<lb n="21" />
+	πορεύεσθαι ἐπὶ τοὺς ἀνατο<supplied resp="editor">-</supplied><lb n="22" />λικοὺς
+	τόπους· καὶ μετὰ ταῦτα<lb n="23" />
+	ἔρχεσθαι ἐν κύπρω καὶ ἐπισκέ<supplied resp="editor">-</supplied><lb n="24" />ψασθαι
+	πάσας τὰς ἐκκλησί<supplied resp="editor">-</supplied><lb n="25" />ας.
+	ἐν αἷς ἐλάλησαν τὸν λόγον<lb n="26" />
+	τοῦ <abbr type="ns">θυ</abbr>· παρεκάλει δὲ ὁ βαρνά<supplied resp="editor">-</supplied><lb n="27" />βας
+	ἐλθεῖν τὸν παῦλον πρότερον<lb n="28" />
+	ἐν κύπρω. καὶ τοὺς ἰδίους αὐτοῦ<lb n="29" />
+	ἐπισκέψασθαι ἐν τῆ κώμη αὐ<supplied resp="editor">-</supplied><lb n="30" />τοῦ·
+	καὶ λούκιος δὲ παρεκά<supplied resp="editor">-</supplied><lb n="31" />λει·
+	ὥστε ἐπίσκεψιν λαβεῖν τὴν<lb n="32" />
+	πόλιν αὐτοῦ κορίνην· ὅραμα δὲ<lb n="33" />
+	ἦν καθύπνον ὀφθὲν τῶ παύλω.<lb n="34" />
+	ὥστε σπεῦσαι αὐτὸν ἐπι
+	<abbr type="ns">ιλημ</abbr><lb n="35" />
+	δια τὸ προσδέχεσθαι αὐτὸν τοὺς<cb n="2" /><lb n="1" />
+	ἀδελφοὺς ἐκεῖ· βαρνάβας<lb n="2" />
+	δὲ παρεκάλει ὥστε ἐλθεῖν αὐ<supplied resp="editor">-</supplied><lb n="3" />τοὺς
+	ἐν κύπρω καὶ ποιῆσαι τὸν χει<supplied resp="editor">-</supplied><lb n="4" />μῶνα.
+	καὶ τότε ἀπελθεῖν αὐτοὺς<lb n="5" />
+	εἰς <abbr type="ns">ιλημ</abbr> ἐν τῆ ἑορτῆ·
+	<milestone n="8" />
+	πολλὴ<lb n="6" />
+	μεταξὺ αὐτῶν<lb n="7" />
+	τοίνυν φιλονεικία <note type="scribal" place="margin-top-and-left" hand="manus1">
+		<supplied resp="editor">-</supplied><lb />ὁραμ<unclear reason="damage" quantity="4" />
+		φιλο<unclear reason="damage" quantity="3" />κίαν ταύτην ἣν καὶ αἱ πράξεις παροξυσμο(ν) καλοῦσιν νομίσης παθοκράτειάν τινα και θυ<supplied resp="editor">-</supplied><lb />μὸν ἀλογιστον εἶναι, ἀκούων τὸ δοκεῖν καὶ τὴν προφασιν εἰναι μεμβράνας· οὐ γὰρ ὀργὴ τίς ἐστιν μὴ γένοιτο. <lb />
+		ἵνα δια μεμβράνας τὸν ἰωάννην καὶ αὖθις δια ἰωάννην τὸν και μάρκον παῦλος καὶ βαρνάβας διεχωρισθη·<lb />
+		ἀλλα τοῦτό εστιν τὸ ἐνεργεῖσθαι ἀμφοτέρους ἐκ τοῦ αγιοῦ <abbr type="ns">πνς</abbr>· καὶ μὴ ποιεῖν ἃ συγκρίνειν δοκοῦσιν, ἀλλὰ <lb />
+		ἃ ἐνεργοῦνται· καὶ<lb />
+		ἴδε ὅτι κλαίουσιν καὶ <lb />
+		βιασθέντες ἀπαγ<lb />
+		γέλλουσιν ἁλλήλοις <lb />
+		τὰ ἀποκαλυφθέν<supplied resp="editor">-</supplied><lb />τα·
+		καὶ ὅτι μὴ βιά<supplied resp="editor">-</supplied><lb />ση
+		βαρνάβα παῦ<supplied resp="editor">-</supplied><lb />λον
+		ἄλλως τε καὶ τὸ <lb />
+		εἰρημένον βαρνά<supplied resp="editor">-</supplied><lb />βα
+		περι ἰωάννου τοῦ <lb />
+		καὶ μάρκου μη κα<supplied resp="editor">-</supplied><lb />ταλιπὼν
+		αὐτὸν<lb />
+		πάλιν οὕτως πλη<supplied resp="editor">-</supplied><lb />ροῖ·
+		τοσοῦτον οὖν <lb />
+		ὑπὸ τοῦ ἁγιου <abbr type="ns">πνς</abbr> ἐκρα<lb />
+		τοῦντο, ὡς σύγ<lb />
+		κρισιν ἀνθρωπί<supplied resp="editor">-</supplied><lb />νην
+		μὴ καταδέ<supplied resp="editor">-</supplied><lb />χεσθαι
+		οἱ ἅγιοι ἀ<supplied resp="editor">-</supplied><lb />πόστολοι·
+		ἀλλὰ <lb />
+		τῆ τοῦ ἐπειλημ<supplied resp="editor">-</supplied><lb />μένου
+		αὐτῶν<lb />
+		ἁγιου <abbr type="ns">πνς</abbr> κινή<supplied resp="editor">-</supplied><lb />σει.
+	</note>
+	ἐγίνετο· βαρνάβας δὲ παρε<supplied resp="editor">-</supplied><lb n="8" />κάλει.
+	καμὲ συνακολουθῆσαι<lb n="9" />
+	αὐτοῖς. δια τὸ ἐξ αρχῆς ὑπη<supplied resp="editor">-</supplied><lb n="10" />ρέτην
+	αὐτῶν εἶναί με· καὶ ἐν τῆ<lb n="11" />
+	κύπρω πάση ὑπηρέτησα αὐ<supplied resp="editor">-</supplied><lb n="12" />τοῖς.
+	ἄχρις οῦ καντήντησαν<lb n="13" />
+	ἐν πέργη τῆς παμφυλίας.  κα<supplied resp="editor">-</supplied><lb n="14" />κεῖ
+	ἀπεμεινα ἡμέρας ἱκανὰς·<lb n="15" />
+	ὁ δε παῦλος κατέκραζεν τοῦ<lb n="16" />
+	βαρναβα λέγων ὅτι ἀδύνατον<lb n="17" />
+	τοῦτον ἐλθεῖν μεθ ἡμῶν· καὶ οἱ ὄν<supplied resp="editor">-</supplied><lb n="18" />τες
+	δὲ μεθ ἡμῶν ἐκεῖ, παρεκά<supplied resp="editor">-</supplied><lb n="19" />λουν
+	ὥστε καμὲ συνακολουθῆ<supplied resp="editor">-</supplied><lb n="20" />σαι
+	αὐτοῖς· ὥστε λέγειν τὸν παῦ<supplied resp="editor">-</supplied><lb n="21" />λον
+	τῶ βαρνάβα· ὅτι εἰ βούλει<lb n="22" />
+	λαβεῖν ἰωάννην τὸν καὶ μάρκον<lb n="23" />
+	μετονομασθέντα μετα σεαυτοῦ.<lb n="24" />
+	πορεύου ἑτέραν ὁδόν οὐ γὰρ ἐλ<supplied resp="editor">-</supplied><lb n="25" />θη
+	μεθ ημῶν· βαρνάβας δὲ<lb n="26" />
+	ἐν ἑαυτῶ γενόμενος εἶπεν· ὅτι<lb n="27" />
+	τὸν ἅπαξ δουλεύσαντα τῶ εὐαγγε<supplied resp="editor">-</supplied><lb n="28" />λίω
+	καὶ συνοδεύσαντα. οὐκ ἀπο<supplied resp="editor">-</supplied><lb n="29" />στρέφεται
+	ἡ χάρις τοῦ <abbr type="ns">θυ</abbr>· εἰ οὖν<lb n="30" />
+	καὶ τοῦτο ἡδύ σοί ἐστι <abbr type="ns">περ</abbr> παῦλε,<lb n="31" />
+	λαβὼν αὐτὸν πορεύομαι· καὶ αὐτὸς<lb n="32" />
+	πορεύου ἐν τῆ χάριτι τοῦ
+	<abbr type="ns">χυ</abbr>.
+	καὶ ἡ<supplied resp="editor">-</supplied><lb n="33" />μεῖς
+	ἐν τῆ δυνάμει τοῦ <abbr type="ns">πνς</abbr>·
+	<milestone n="9" />
+	κλί<supplied resp="editor">-</supplied><lb n="34" />ναντες
+	τοίνυν τὰ γόνατα, προ<supplied resp="editor">-</supplied><lb n="35" />σηύξαντο
+	τῶ <abbr type="ns">θω</abbr>· καὶ
+	ἀναστενάξας<pb n="57r" /><cb n="1" /><lb n="1" />
+	παῦλος,
+	ἔκλαυσεν· ὁμοίως δὲ<lb n="2" />
+	καὶ βαρνάβας λέγοντες πρὸς ἀλ<supplied resp="editor">-</supplied><lb n="3" />λήλους· καλὸν μὲν ἦν ἡμᾶς<lb n="4" />
+	κοινῶς καθὼς τὴν ἀρχὴν. οὕ<supplied resp="editor">-</supplied><lb n="5" />τως
+	καὶ τὸ τέλος ποιήσασθαι<lb n="6" />
+	τὸ ἐν <abbr type="ns">ανοις</abbr>· ἐπειδὴ δὲ
+	οὕτως<lb n="7" />
+	σοι ἔδοξε <abbr type="ns">περ</abbr> παῦλε, πρό<supplied resp="editor">-</supplied><lb n="8" />σευξαι
+	ὑπὲρ ἐμοῦ ἵνα τέλειός<lb n="9" />
+	μου ὁ κάματος γένηται εἰς αἴ<supplied resp="editor">-</supplied><lb n="10" />νεσιν·
+	οἶδας γὰρ πῶς σοι ἐδού<supplied resp="editor">-</supplied><lb n="11" />λευσα εἰς
+	τὴν χάριν τοῦ <abbr type="ns">χυ</abbr> τὴν<lb n="12" />
+	δοθεῖσαν ἡμῖν· πορεύομαι<lb n="13" />
+	γὰρ ἐν κύπρω καὶ σπεύδω τε<supplied resp="editor">-</supplied><lb n="14" />λειωθῆναι.
+	οἶδα γὰρ οὐκἔτι<lb n="15" />
+	ὄψομαι τὸ πρόσωπόν σου <abbr type="ns">περ</abbr><lb n="16" />
+	παῦλε· καὶ πεσὼν ἐπὶ τὴν<lb n="17" />
+	γῆν εἰς τοὺς πόδας αὐτοῦ. ἔ<supplied resp="editor">-</supplied><lb n="18" />κλαυσεν
+	ἱκανῶς·
+	<milestone n="10" />
+	ὁ δὲ παῦλος<lb n="19" />
+	ἔφη πρὸς αὐτόν· καμοὶ τῆ<lb n="20" />
+	νυκτὶ ταύτη παρέστη ὁ <abbr type="ns">κς</abbr> λέγων·<lb n="21" />
+	μὴ βιάση βαρνάβαν τοῦ μὴ<lb n="22" />
+	πορευθῆναι εἰς κύπρον· ἐκεῖ<lb n="23" />
+	γὰρ αὐτῶ ἡτοίμασται τοῦ φω<supplied resp="editor">-</supplied><lb n="24" />τίσαι
+	πολλοὺς· καὶ σοὶ δὲ ἐν<lb n="25" />
+	τῆ δοθείση σοι χάριτι. πορεύ<supplied resp="editor">-</supplied><lb n="26" />ου
+	εἰς ιεροσόλυμα προσκυνῆ<supplied resp="editor">-</supplied><lb n="27" />σαι
+	ἐν τῶ ἁγιω τόπω· κακεῖ σοι<lb n="28" />
+	δειχθήσεται. ποῦ σοι τὸ μαρτύ<supplied resp="editor">-</supplied><lb n="29" />ριον
+	ἡτοίμασται· ἠσπασάμε<supplied resp="editor">-</supplied><lb n="30" />θα
+	δὲ ἀλλήλους· καὶ παρέλαβέν<lb n="31" />
+	με βαρνάβας·
+	<milestone n="11" />
+	καὶ κατελθόν<supplied resp="editor">-</supplied><lb n="32" />τες
+	εἰς λαοδίκειαν. ἠρωτῶμεν<lb n="33" />
+	περᾶσαι εἰς κύπρον· καὶ ευρόν<supplied resp="editor">-</supplied><lb n="34" />τες
+	πλοῖον ἀπερχόμενον εἰς<lb n="35" />
+	κύπρον,  ἀνήλθομεν· καὶ πλευ<cb n="2" /><supplied resp="editor">-</supplied><lb n="1" />σάντων
+	ἡμῶν. ὁ ἄνεμος ἐ<supplied resp="editor">-</supplied><lb n="2" />ναντίος
+	ευρέθη·
+	ἤλθομεν δὲ<lb n="3" />
+	ἐν τῶ κορασίω· καὶ κατελ<supplied resp="editor">-</supplied><lb n="4" />θόντων
+	ἡμῶν παρὰ τὸν αἰγι<supplied resp="editor">-</supplied><lb n="5" />αλόν
+	ἔνθα πηγὴ ἦν. ἀνεψύ<supplied resp="editor">-</supplied><lb n="6" />ξαμεν
+	ἐκεῖ· μηδενὶ ἑαυτοὺς<lb n="7" />
+	ἐμφανίζοντες. διὰ τὸ μὴ γνῶ<supplied resp="editor">-</supplied><lb n="8" />ναί τινα
+	ὅτι ἀπεχωρίσθη βαρ<supplied resp="editor">-</supplied><lb n="9" />νάβας
+	τοῦ παύλου· ἀναχθέν<supplied resp="editor">-</supplied><lb n="10" />τες
+	δὲ ἀπο κορασίου. ἤλθο<supplied resp="editor">-</supplied><lb n="11" />μεν
+	ἐν νήσω τινὶ πιτυούση κα<supplied resp="editor">-</supplied><lb n="12" />λουμένη·
+	καὶ χειμῶνος γενο<supplied resp="editor">-</supplied><lb n="13" />μένου.
+	ἐποιήσαμεν ἐκεῖ ἡ<supplied resp="editor">-</supplied><lb n="14" />μέρας
+	<num value="3">τρεῖς</num>· ὑπεδέξατο<lb n="15" />
+	δὲ ἡμᾶς ἀνηρ τις εὐλαβὴς.<lb n="16" />
+	ὀνόματι εὔφημος. ὃν καὶ πολ<supplied resp="editor">-</supplied><lb n="17" />λὰ
+	κατήχησε βαρνάβας εἰς<lb n="18" />
+	τὴν πίστιν σὺν ὅλω τῶ οἴκω αὐ<supplied resp="editor">-</supplied><lb n="19" />τοῦ·
+	<milestone n="12" />
+	ἐκεῖθεν τε παρεπλεύ<supplied resp="editor">-</supplied><lb n="20" />σαμεν
+	τὰς ἀκονησίας. καὶ ἤλ<supplied resp="editor">-</supplied><lb n="21" />θομεν
+	ἐν πόλει ἀνεμουρίω· καὶ<lb n="22" />
+	εἰσελθόντων ἡμῶν ἐν αὐτῆ. εὕ<supplied resp="editor">-</supplied><lb n="23" />ρομεν
+	<num value="2">δύο</num> ἕλληνας· ἐλθόντες<lb n="24" />
+	δὲ πρὸς ἡμᾶς, ἐπηρώτων πόθεν<lb n="25" />
+	καὶ τίνες ἐσμὲν· εἶπεν δὲ αὐτοῖς<lb n="26" />
+	βαρνάβας· εἰ βούλεσθε γνῶ<supplied resp="editor">-</supplied><lb n="27" />ναι
+	πόθεν καὶ τίνες ἐσμὲν ἀ<supplied resp="editor">-</supplied><lb n="28" />πορρίψατε
+	ἣν ἔχετε ἐσθῆτα.<lb n="29" />
+	καὶ περιβάλλω  ὑμᾶς ἐσθητα.<lb n="30" />
+	ἥτις οὐδέποτε ῥυπαίνεται.<lb n="31" />
+	οὐδέ ἐστιν ἐν αὐτῆ ῥυπαρία ἀλ<supplied resp="editor">-</supplied><lb n="32" />λὰ
+	πάντοτε λαμπρά ἐστιν·<lb n="33" />
+	ξενισθέντες δὲ ἐπὶ τῶ λόγω,<lb n="34" />
+	ἠρώτων ἡμᾶς τί ἐστι τὸ ἔνδυ<supplied resp="editor">-</supplied><lb n="35" />μα
+	ἐκεῖνο ὃ μέλλει διδόναι·<pb n="57v" /><cb n="1" /><lb n="1" />
+	εἶπεν δὲ αὐτοῖς βαρνάβας·<lb n="2" />
+	ἐὰν ἐξομολογήσησθε τὰς
+	ἁ<supplied resp="editor">-</supplied><lb n="3" />μαρτίας
+	ὑμῶν· καὶ συντάξησθε<lb n="4" />
+	τῶ <abbr type="ns">κω</abbr> ἡμῶν <abbr type="ns">ιυ</abbr> <abbr type="ns">χω</abbr>.
+	λαμβάνετε<lb n="5" />
+	τὸ ἔνδυμα ἐκεῖνο. ὅπέρ ἐστιν ἄ<supplied resp="editor">-</supplied><lb n="6" />φθαρτον
+	εἰς τον αἰῶνα·
+	<milestone n="13" />
+	κατα<supplied resp="editor">-</supplied><lb n="7" />νυχθέντες
+	δὲ ὑπὸ τοῦ ἁγίου <abbr type="ns">πνς</abbr>.<lb n="8" />
+	ἐπεσον εἰς τοὺς πόδας αὐτοῦ<lb n="9" />
+	παρακαλοῦντες καὶ λέγοντες·<lb n="10" />
+	ἀξιοῦμέν σε <abbr type="ns">περ</abbr>. δὸς ἡμῖν τὸ ἔν<supplied resp="editor">-</supplied><lb n="11" />δυμα
+	ἐκεῖνο ἡμεῖς γὰρ πιστεύ<supplied resp="editor">-</supplied><lb n="12" />ομεν
+	ὧ κηρύττεις ζῶντι <abbr type="ns">θω</abbr> καὶ ἀ<supplied resp="editor">-</supplied><lb n="13" />ληθινῶ·
+	καταγαγὼν δὲ αὐτοὺς<lb n="14" />
+	κάτω εἰς τὴν πηγῆν. ἐβάπτι<supplied resp="editor">-</supplied><lb n="15" />σεν
+	αὐτοὺς εἰς ὄνομα <abbr type="ns">πρς</abbr> καὶ υἱοῦ<lb n="16" />
+	καὶ ἁγίου <abbr type="ns">πνς</abbr>· καὶ ἔγνωσαν ἑαυ<supplied resp="editor">-</supplied><lb n="17" />τοὺς.
+	ὅτι ἐνεδύσαντο δύναμιν<lb n="18" />
+	καὶ στολὴν ἁγίαν· λαβὼν δὲ πα<supplied resp="editor">-</supplied><lb n="19" />ρ’
+	ἐμοῦ <num value="1">μίαν</num> στολὴν. ἐνέδυσεν τὸν<lb n="20" />
+	<num value="1">ἕνα</num>· καὶ ἐκ τῆς ἰδίας στολῆς<lb n="21" />
+	ἐνέδυσε τὸν ἕτερον· προσήνε<supplied resp="editor">-</supplied><lb n="22" />γκαν
+	δὲ χρήματα αὐτῶ. καὶ<lb n="23" />
+	εὐθέως διέδωκεν αὐτὰ βαρ<supplied resp="editor">-</supplied><lb n="24" />νάβας
+	τοῖς πτωχοῖς· ἀφ’ ὧν καὶ<lb n="25" />
+	οἱ ναῦται πολλὰ ἠδυνήθησαν<lb n="26" />
+	κερδᾶναι·
+	<milestone n="14" />
+	κατελθόντες δὲ<lb n="27" />
+	ἐν τῶ αἰγιαλῶ. ἐλάλει αὐτοῖς<lb n="28" />
+	τὸν λόγον  τοῦ <abbr type="ns">θυ</abbr>·
+	καὶ εὐλογήσας<lb n="29" />
+	αὐτοὺς. ἠσπασάμεθα αὐτοὺς<lb n="30" />
+	καὶ ἀνήχθημεν ἐν τῶ πλοίω· ὁ<lb n="31" />
+	δε  <num value="1">εἷς</num> αὐτῶν ὁ ἐπικληθεὶς στέ<supplied resp="editor">-</supplied><lb n="32" />φανος.
+	ἐβούλετο συνακολουθῆ<supplied resp="editor">-</supplied><lb n="33" />σαι
+	ἡμῖν· καὶ οὐκ εἴασεν ὁ βαρνά<supplied resp="editor">-</supplied><lb n="34" />βας·
+	διαπερασάντων δὲ, ἡμῶν.<lb n="35" />
+	κατεπλεύσαμεν ἐν κύπρω δια <cb n="2" /><lb n="1" />
+	νυκτός. καὶ ἐλθόντες ἐν τῶ<lb n="2" />
+	λεγομένω κρομμυακίτη εὕρο<supplied resp="editor">-</supplied><lb n="3" />μεν
+	τίμωνα καὶ ἀρίστωνα τοὺς ἱ<supplied resp="editor">-</supplied><lb n="4" />εροδούλους.
+	πρὸς οὓς καὶ ἐξε<supplied resp="editor">-</supplied><lb n="5" />νίσθημεν·
+	<milestone n="15" />
+	τίμων δὲ συνείχε<supplied resp="editor">-</supplied><lb n="6" />το πυρετῶ πολλῶ·
+	ὧ καὶ ἐπι<supplied resp="editor">-</supplied><lb n="7" />θέντες
+	τὰς χεῖρας. εὐθέως<lb n="8" />
+	ἀπεστησαμεν τὸν πυρετὸν<lb n="9" />
+	αὐτοῦ. ἐπικαλεσάμενοι τὸ ὄ<supplied resp="editor">-</supplied><lb n="10" />μα
+	τοῦ <abbr type="ns">κυ</abbr> <abbr type="ns">ιυ</abbr>· ἦν δὲ ὁ βαρνάβας<lb n="11" />
+	μαθήματα παρα ματθαίου<lb n="12" />
+	εἰληφὼς βιβλίον· τῆς τοῦ <abbr type="ns">θυ</abbr><lb n="13" />
+	φωνῆς καὶ θαυμάτων καὶ διδαγμά<supplied resp="editor">-</supplied><lb n="14" />των
+	συγγράμματα· ταύτην<lb n="15" />
+	ἐπετίθει τοῖς ἀσθενοῦσι βαρ<supplied resp="editor">-</supplied><lb n="16" />νάβας
+	κατὰ τὴν ἀπαντῶ<supplied resp="editor">-</supplied><lb n="17" />σαν
+	ἡμῖν χώραν. καὶ εὐθέως<lb n="18" />
+	τῶν  παθῶν ἴασιν ἐποίει·
+	<milestone n="16" />
+	γε<supplied resp="editor">-</supplied><lb n="19" />νομένων
+	δὲ ἡμῶν ἐν λαπίθω· καὶ<lb n="20" />
+	εἰδωλομανίας ἐπιτελουμένης<lb n="21" />
+	ἐν τῶ θεάτρω. οὐκ εἴασαν ἡ<supplied resp="editor">-</supplied><lb n="22" />μᾶς
+	εἰσελθεῖν ἐν τῆ πόλει· ἀλλὰ<lb n="23" />
+	πρὸς τῆ πύλη ἀνεψυξαμεν  μι<supplied resp="editor">-</supplied><lb n="24" />κρὸν·
+	τίμων δὲ μετὰ τὸ ἀναστῆ<supplied resp="editor">-</supplied><lb n="25" />ναι
+	αὐτὸν ἐκ τῆς νόσου,
+	ἦλθεν σὺν<lb n="26" />
+	ἡμῖν· ἐξελθόντες δὲ τῆς
+	λαπί<supplied resp="editor">-</supplied><lb n="27" />θου,
+	δια  τῶν ὀρέων ὡδεύσα<supplied resp="editor">-</supplied><lb n="28" />μεν·
+	και ἤλθομεν εἰς πόλιν
+	λαμ<supplied resp="editor">-</supplied><lb n="29" />παδίστου
+	ὅθεν ὑπῆρχεν καὶ τί<supplied resp="editor">-</supplied><lb n="30" />μων·
+	πρὸς ὃν εὑρόντες καὶ ἠρά<supplied resp="editor">-</supplied><lb n="31" />κλειον
+	ὄντα ἐκεῖ. ἐξενίσθημεν<lb n="32" />
+	παρ’ αὐτῶ·
+	<milestone n="17" />
+	οὗτος ἠρακλέων<lb n="33" />
+	ἦν ἀπὸ τῆς ταμασέων ὃς ἐλη<supplied resp="editor">-</supplied><lb n="34" />λύθει
+	ἐπισκέψασθαι τοὺς οἰκεί<supplied resp="editor">-</supplied><lb n="35" />ους
+	αὐτοῦ· πρὸς ὃν ἀτενίσας<pb n="66r" /><cb n="1" /><lb n="1" />
+	ὁ βαρνάβας,  ἀνεγνώρισεν αὐ<supplied resp="editor">-</supplied><lb n="2" />τὸν.
+	πρώην ἐπι τῆς κητιαίων<lb n="3" />
+	συντυχίαν πεποιηκὼς μετὰ<lb n="4" />
+	παύλου πρὸς αὐτὸν. ὧ καὶ <abbr type="ns">πνα</abbr><lb n="5" />
+	ἅγιον ἐδόθη ἐπὶ τοῦ βαπτίσμα<supplied resp="editor">-</supplied><lb n="6" />τος·
+	μετωνόμασέν τε αὐτὸν ηρα<supplied resp="editor">-</supplied><lb n="7" />κλείδην·
+	χειροτονήσαντές τε<lb n="8" />
+	αὐτὸν ἐπίσκοπον τῆ κύπρω· καὶ<lb n="9" />
+	ἐκκλησίαν ἐπιστηρίξαντες<lb n="10" />
+	ἐν ταμάσω κατελείψαμεν αὐ<supplied resp="editor">-</supplied><lb n="11" />τὸν
+	εἰς κατοίκησιν τῶν ἐκεῖσε<lb n="12" />
+	κατοικούντων ἀδελφῶν·
+	<milestone n="18" />
+	ἡμῶν<lb n="13" />
+	δὲ διελθόντων τὸ ὄρος τὸ καλού<supplied resp="editor">-</supplied><lb n="14" />μενον
+	χιονῶδες. καντηντήσα<supplied resp="editor">-</supplied><lb n="15" />μεν
+	ἐν παλαιῶ πάφω· κακεῖ εὑ<supplied resp="editor">-</supplied><lb n="16" />ρόντες
+	ῥόδωνα ἱερόδουλον· ὃς καὶ<lb n="17" />
+	αὐτὸς πιστεύσας συνηκολού<supplied resp="editor">-</supplied><lb n="18" />θησεν
+	ἡμῖν· συνατήσαντες<lb n="19" />
+	δέ τινι ἰουδαίω ὀνόματι βαρὶησοῦ<lb n="20" />
+	ἐρχομένω ἀπο πάφου· ὅστις καὶ<lb n="21" />
+	ἐγνωρισεν βαρνάβαν ὄντα πρώ<supplied resp="editor">-</supplied><lb n="22" />ην
+	μετὰ παύλου· οὗτος οὐκ ἠ<supplied resp="editor">-</supplied><lb n="23" />θελησεν
+	ἡμᾶς εἰσελθεῖν ἐν πά<supplied resp="editor">-</supplied><lb n="24" />φω·
+	ἀλλ ὑποστρέψαντες ἤλθο<supplied resp="editor">-</supplied><lb n="25" />μεν
+	ἐν τῶ κουρίω·
+	<milestone n="19" />
+	καὶ εὕρομεν δρό<supplied resp="editor">-</supplied><lb n="26" />μον
+	τινὰ μιερὸν ἐν τῆ ὁδῶ πλη<supplied resp="editor">-</supplied><lb n="27" />σίον
+	τῆς πόλεως ἐπιτελούμε<supplied resp="editor">-</supplied><lb n="28" />νον
+	ἔνθα γυναικῶν τε καὶ ἀνδρῶν<lb n="29" />
+	πλῆθος γυμνῶν ἐπετέλουν τὸν<lb n="30" />
+	δρόμον καὶ πολλὴ ἀπάτη καὶ<lb n="31" />
+	πλάνη ἐγίνετο ἐν τῶ τόπω ἐκεί<supplied resp="editor">-</supplied><lb n="32" />νω·
+	στραφεὶς δὲ ὁ βαρνάβας.<lb n="33" />
+	τούτω ἐπετίμησεν καὶ ἔπεσεν<lb n="34" />
+	τὸ ἀπὸ δυσμῶν μέρος. ὡστε πολ<supplied resp="editor">-</supplied><lb n="35" />λοὺς
+	τραυματίας γενέσθαι·<cb n="2" /><lb n="1" />
+	πολλοὶ δὲ ἐξ αὐτῶν καὶ ἀπέθα<supplied resp="editor">-</supplied><lb n="2" />νον·
+	οἱ δὲ λοιποὶ ἔφυγον εἰς τὸ ἱε<supplied resp="editor">-</supplied><lb n="3" />ρὸν
+	τοῦ ἀπόλλωνος τὸ ὂν πλη<supplied resp="editor">-</supplied><lb n="4" />σίον
+	ἐν τῆ καλουμένη ἱερᾶ·<lb n="5" />
+	ἐλθόντων δὲ ἡμῶν ἐγγὺς τοῦ ἱ<supplied resp="editor">-</supplied><lb n="6" />εροῦ·
+	πολὺ πλῆθος ἰουδαίων<lb n="7" />
+	ὄντων ἐκεῖ ὑποβληθέντες ὑ<supplied resp="editor">-</supplied><lb n="8" />πὸ
+	τοῦ βαρἰησοῦ. ἔστησαν ἔξω<lb n="9" />
+	τῆς πόλεως. καὶ οὐκ εἴασαν ἡμᾶς<lb n="10" />
+	εἰσελθεῖν εἰς τὴν πόλιν· ἀλλ’ ὑπὸ<lb n="11" />
+	δένδρον τὸ ὂν πλησίον τῆς πόλε<supplied resp="editor">-</supplied><lb n="12" />ως
+	ἐποιήσαμεν τὴν ἡμέραν<supplied resp="editor">-</supplied><lb n="13" />·
+	καὶ ἀνεψύξαμεν ἐκεῖ·
+	<milestone n="20" />
+	τῆ δὲ ἐ<supplied resp="editor">-</supplied><lb n="14" />πιούση
+	ἤλθομεν ἐν κώμη τι<supplied resp="editor">-</supplied><lb n="15" />νί
+	ἔνθα ἀριστοκλιανὸς κατέ<supplied resp="editor">-</supplied><lb n="16" />μενεν·
+	οὗτος λεπρὸς ὢν ἐκα<supplied resp="editor">-</supplied><lb n="17" />θαρίσθη
+	ἐν ἀντιοχεια· ὃν καὶ<lb n="18" />
+	ἐσφράγισε παῦλος καὶ βαρνάβας<lb n="19" />
+	εἰς ἐπίσκοπον· καὶ ἀπέστειλαν<lb n="20" />
+	εἰς τὴν κώμην αὐτοῦ ἐν κύπρω<lb n="21" />
+	δια τὸ πολλοὺς ἕλληνας ὑ<supplied resp="editor">-</supplied><lb n="22" />πάρχειν
+	ἐκει· ἐξενίσθημεν<lb n="23" />
+	δὲ ἐν τῶ σπηλαίω πρὸς αὐτὸν<lb n="24" />
+	ἐν τῶ ὄρει· κακεῖ ἐμείναμεν ἡ<supplied resp="editor">-</supplied><lb n="25" />μέραν
+	<num value="1">μίαν</num>· ἐκεῖθεν τε ἤλθο<supplied resp="editor">-</supplied><lb n="26" />μεν
+	ἐν ἀμαθοῦντι· καὶ πολὺ πλῆθος<lb n="27" />
+	ἦν ἑλλήνων ἐν τῶ ὄρει ἀσέμνων γυναι<supplied resp="editor">-</supplied><lb n="28" />κῶν
+	τε καὶ ἀνδρῶν σπενδόντων· προ<supplied resp="editor">-</supplied><lb n="29" />λαβὼν
+	δε κακεῖ ὁ βαριησοῦς. συ<supplied resp="editor">-</supplied><lb n="30" />νεσκευασεν
+	τὸ ἔθνος τῶν ἰου<supplied resp="editor">-</supplied><lb n="31" />δαίων.
+	καὶ οὐκ εἴασεν ἡμας εἰσελ<supplied resp="editor">-</supplied><lb n="32" />θεῖν
+	εἰς τὴν πόλιν εἰ μὴ γυνή τις<lb n="33" />
+	χήρα ὡς ἐτῶν <num value="80">ὀγδοήκοντα</num> ἔξω<lb n="34" />
+	τῆς πόλεως οὖσα. καὶ αὐτὴ τοῖς<lb n="35" />
+	εἰδώλοις μὴ προσκυνοῦσα, προσέχου<choice>
+		<unclear reason="illegible" unit="character" quantity="1" />
+		<supplied cert="high">σ</supplied>
+	</choice>α<pb n="66v" /><cb n="1" /><lb n="1" />
+	ἡμῖν. ἐδεξατο ἡμᾶς ἐν τῶ οἴκω<lb n="2" />
+	αὐτῆς <num value="1">μίαν</num> ὥραν· ἐξερχομένων<lb n="3" />
+	δὲ ἡμῶν, τὸν κονιορτὸν,
+	τῶν ποδῶν<lb n="4" />
+	ἐξετιναξαμεν κατέναντι τοῦ<lb n="5" />
+	ἱεροῦ ἐκείνου ἔνθα ἡ σπονδὴ τῶν<lb n="6" />
+	ἱερέων ἐγίνετο·
+	<milestone n="21" />
+	ἐκεῖθεν τε ἐξελ<supplied resp="editor">-</supplied><lb n="7" />θόντες,
+	ἤλθομεν δια τῶν ἐρή<supplied resp="editor">-</supplied><lb n="8" />μων
+	τόπων· ἠκολούθει δὲ ἡμῖν<lb n="9" />
+	καὶ τίμων· καὶ ἐλθόντων ἡμῶν<lb n="10" />
+	προς κιτιεῖς. πολλοῦ θορύβου γε<supplied resp="editor">-</supplied><lb n="11" />νομένου·
+	κακεῖ ἐν τῶ ἱπποδρομεί<supplied resp="editor">-</supplied><lb n="12" />ω
+	αὐτῶν. μαθόντες ἐξήλθομεν<lb n="13" />
+	τὴν πόλιν ἐκτιναξαμενοι τὸν<lb n="14" />
+	κονιορτὸν τῶν ποδῶν ἡμῶν ἅ<supplied resp="editor">-</supplied><lb n="15" />παντες·
+	οὐδεὶς γὰρ ἡμᾶς ἐδέ<supplied resp="editor">-</supplied><lb n="16" />ξατο.
+	ἡμὴ ἐν τῆ πύλη <num value="1">μίαν</num> ὥ<supplied resp="editor">-</supplied><lb n="17" />ραν
+	ἀνεψύξαμεν. πλησίον τοῦ<lb n="18" />
+	ὑδραγωγίου·
+	<milestone n="22" />
+	ἀναχθέντων δὲ ἡ<supplied resp="editor">-</supplied><lb n="19" />μῶν
+	ἐν πλοίω ἀπὸ τῶν κητιαί<supplied resp="editor">-</supplied><lb n="20" />ων.
+	ἤλθομεν ἐπὶ σαλαμίνη· καὶ<lb n="21" />
+	κατήχθημεν ἐν ταῖς λεγομέ<supplied resp="editor">-</supplied><lb n="22" />ναις
+	νήσοις. ἔνθα κατείδωλος<lb n="23" />
+	ὁ τόπος ὑπῆρχεν· κακεῖ γὰρ<lb n="24" />
+	πανηγύρεις καὶ σπονδαὶ ἐγίνον<supplied resp="editor">-</supplied><lb n="25" />το·
+	εὑρόντες δὲ κακεῖ πάλιν<lb n="26" />
+	ἡρακλείδην. ἐδιδάξαμεν αὐτὸν<lb n="27" />
+	πῶς κηρύσσειν τὸ τοῦ <abbr type="ns">θυ</abbr>
+	εὐαγγέ<supplied resp="editor">-</supplied><lb n="28" />λιον·
+	καὶ καθιστάναι ἐκκλησίας<lb n="29" />
+	καὶ λειτουργοὺς ἐν αὐταῖς· εἰσελ<supplied resp="editor">-</supplied><lb n="30" />θόντων
+	δὲ  ἡμῶν ἐν σαλαμίνη<supplied resp="editor">-</supplied><lb n="31" />.
+	κατηντήσαμεν εἰς τὴν συναγω<supplied resp="editor">-</supplied><lb n="32" />γὴν
+	τὴν πλησίον τῆς ἐπιλεγο<supplied resp="editor">-</supplied><lb n="33" />μενης
+	βιβλίας· κακεῖ εἰσελθόν<supplied resp="editor">-</supplied><lb n="34" />των
+	ἡμῶν,  ἀναπτύξας ὁ βαρνά<supplied resp="editor">-</supplied><lb n="35" />βας
+	τὸ εὐαγγέλιον ὅπερ ἦν λαβὼν<cb n="2" /><lb n="1" />
+	παρὰ ματθαίου τοῦ συνεργου,<lb n="2" />
+	ἤρξατο διδάσκειν τοὺς ἰουδαί<supplied resp="editor">-</supplied><lb n="3" />ους·
+	<milestone n="23" />
+	καταντήσαντος δε τοῦ βαρ<supplied resp="editor">-</supplied><lb n="4" />ιησοῦ
+	μετα <num value="2">δύο</num> ἡμέρας· μετὰ τὸ<lb n="5" />
+	κατηχῆσαι ἰουδαίους οὐκ ὀλί<supplied resp="editor">-</supplied><lb n="6" />γους.
+	θυμωθεὶς,  συνῆξε πᾶν<lb n="7" />
+	τὸ πλῆθος τῶν ἰουδαίων· καὶ κα<supplied resp="editor">-</supplied><lb n="8" />τασχόντες
+	τὸν βαρνάβαν. ἐ<supplied resp="editor">-</supplied><lb n="9" />ζήτησαν
+	παραδοῦναι ὑπά<supplied resp="editor">-</supplied><lb n="10" />τω
+	τῶ ἡγεμόνι τῆς σαλαμίνης·<lb n="11" />
+	καὶ δήσαντες αὐτὸν πρὸς τὸ ἀ<supplied resp="editor">-</supplied><lb n="12" />γαγεῖν
+	πρὸς τὸν ἡγεμόνα. εὐ<supplied resp="editor">-</supplied><lb n="13" />σεβοῦς
+	δὲ ἰεβουσαίου συγγενοῦς<lb n="14" />
+	νέρωνος καταντήσαντος ἐν κύ<supplied resp="editor">-</supplied><lb n="15" />πρω·
+	μαθόντες οἱ ἰουδαῖοι· λαβόν<supplied resp="editor">-</supplied><lb n="16" />τες
+	τὸν βαρνάβαν νυκτος. ἔ<supplied resp="editor">-</supplied><lb n="17" />δησαν
+	ἐν σχοινίω κατὰ τοῦ τρα<supplied resp="editor">-</supplied><lb n="18" />χήλου·
+	καὶ σύραντες ἐπὶ τὸ ἱπ<supplied resp="editor">-</supplied><lb n="19" />ποδρομεῖον
+	ἀπὸ τῆς συναγωγῆς<lb n="20" />
+	καὶ περάσαντες ἔξω τῆς πύλης, <lb n="21" />
+	περιστάντες,  κατέκαυσαν αὐ<supplied resp="editor">-</supplied><lb n="22" />τὸν πυρί.
+	ὥστε καὶ τὰ ὀστᾶ αὐτοῦ κο<supplied resp="editor">-</supplied><lb n="23" />νίαν
+	γενεσθαι· εὐθέως δὲ αὐ<supplied resp="editor">-</supplied><lb n="24" />τῆ
+	τῆ νυκτὶ λαβόντες τὴν κονί<supplied resp="editor">-</supplied><lb n="25" />αν
+	αὐτοῦ. ἔβαλον ἐν σινδόνι· καὶ<lb n="26" />
+	ἐν μολίβδω ἀσφαλισάμενοι, <lb n="27" />
+	ἐσκέπτοντο κατὰ τοῦ πελάγους<lb n="28" />
+	ῥῖψαι αὐτόν·
+	<milestone n="24" />
+	ἐγὼ δὲ εὑρὼν και<supplied resp="editor">-</supplied><lb n="29" />ρὸν
+	τῆς νυκτός· καὶ τοῦτον μετὰ<lb n="30" />
+	τίμωνος καὶ ῥόδωνος βαστάσαι δυ<supplied resp="editor">-</supplied><lb n="31" />νηθείς.
+	ἤλθομεν ἐν τόπω τινί<lb n="32" />
+	καὶ εὑρόντες σπήλαιον. κατη<supplied resp="editor">-</supplied><lb n="33" />γάγομεν
+	αὐτὸν ἐκεῖ. ἔνθα τὸ ἔ<supplied resp="editor">-</supplied><lb n="34" />θνος
+	τῶν ἰεβουσαίων τὸ πρὶν<lb n="35" />
+	κατώκει· ἀποκεκρυμμένον δὲ<pb n="67r" /><cb n="1" /><lb n="1" />
+	τόπον εὑρόντες ἐν αὐτῶ. ἀπε<supplied resp="editor">-</supplied><lb n="2" />θέμεθα
+	σὺν τοῖς μαθήμασιν οἷς<lb n="3" />
+	παρέλαβεν παρα ματθαίου· ἦν<lb n="4" />
+	δὲ ὥρα <num type="ordinal" value="4">τετάρτη</num> τῆς νυκτὸς <num type="ordinal" value="2">δευ<supplied resp="editor">-</supplied><lb n="5" />τέρας</num>
+	σαββάτων·
+	<milestone n="25" />
+	ὡς δὲ ἐκρύ<supplied resp="editor">-</supplied><lb n="6" />βημεν
+	ἐν τῶ τόπω. ζήτησιν<lb n="7" />
+	οὐκ ὀλίγην ἐποιήσαντο οἱ ἰου<supplied resp="editor">-</supplied><lb n="8" />δαῖοι
+	καθ’ ἡμῶν· καὶ μόλις εὑ<supplied resp="editor">-</supplied><lb n="9" />ρόντες
+	κατεδίωξαν ἕως τῆς<lb n="10" />
+	κώμης λέδρων· καὶ εὑρόντες κα<supplied resp="editor">-</supplied><lb n="11" />κεῖ
+	σπήλαιον πλησίον τῆς κώ<supplied resp="editor">-</supplied><lb n="12" />μης,
+	κατεφύγομεν ἐν αὐτῶ. καὶ<lb n="13" />
+	οὕτως διελάθομεν αὐτούς· ἀ<supplied resp="editor">-</supplied><lb n="14" />πεκρύβημεν
+	δὲ ἐν τῶ σπηλαίω<lb n="15" />
+	<num value="3">τρεῖς</num> ἡμέρας· καὶ ἀναχωρησάν<supplied resp="editor">-</supplied><lb n="16" />των
+	τῶν ἰουδαίων. ἐξελθόντες<lb n="17" />
+	κατελείψαμεν τὸν τόπον νυκτός·<lb n="18" />
+	<milestone n="26" />
+	ἐλθόντες δὲ ἐπὶ τὸν αἰγιαλὸν.<lb n="19" />
+	εὕρομεν πλοῖον αἰγύπτιον· καὶ<lb n="20" />
+	ανελθόντες εἰς αὐτὸ. κατήχθη<supplied resp="editor">-</supplied><lb n="21" />μεν
+	ἐν αλεξανδρεία· κακεῖ ἔμει<supplied resp="editor">-</supplied><lb n="22" />να
+	ἐγὼ διδάσκων τοὺς ἐρχομέ<supplied resp="editor">-</supplied><lb n="23" />νους
+	ἀδελφοὺς τὸν λόγον τοῦ  <abbr type="ns">κυ</abbr>·<lb n="24" />
+	φωτίζων αὐτοὺς καὶ εὐαγγελιζό<supplied resp="editor">-</supplied><lb n="25" />μενος.
+	ἅπερ ἐδιδάχθην παρὰ<lb n="26" />
+	τῶν ἀποστόλων τοῦ <abbr type="ns">χυ</abbr>· τῶν καὶ<lb n="27" />
+	βαπτισάντων με εἰς ὄνομα <abbr type="ns">πρς</abbr><lb n="28" />
+	καὶ υἱοῦ καὶ ἁγίου <abbr type="ns">πνς</abbr>
+	τῶν καὶ μετο<supplied resp="editor">-</supplied><lb n="29" />νομασάντων
+	με μάρκον ἐν τῶ<lb n="30" />
+	ὕδατι τοῦ βαπτίσματος,  ἐν ὧ<lb n="31" />
+	καὶ ἐλπίζω προσενέγκαι πολ<supplied resp="editor">-</supplied><lb n="32" />λοὺς
+	εἰς τὴν δόξαν τοῦ <abbr type="ns">θυ</abbr>
+	διὰ<lb n="33" />
+	τῆς χάριτος αὐτοῦ. ὅτι<lb n="34" />
+	αὐτῶ πρέπει τιμὴ καὶ<lb n="35" />
+	δόξα αἰώνιος<lb n="36" /> ἀμήν.
+</p>
+<milestone n="final" />
+	<head type="final">
+	<lb n="37" />
+		περίoδ(οι|ος)
+	  καὶ <abbr type="ns">μρ</abbr>
+	  τοῦ ἁγίου
+		<abbr type="ns">ἀπο</abbr>
+		βαρνάβα πεπληστ(αι) δια <abbr type="ns">θυ</abbr>
+	</head>
+</div>
+</body>
+</text>
+</TEI>
